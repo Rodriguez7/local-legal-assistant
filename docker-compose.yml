@@ -4,12 +4,13 @@ services:
   open-webui:
     image: ghcr.io/open-webui/open-webui:main
     ports:
-      - "3300:8080"
+      # Loopback only: auth is off below, so the UI must not be reachable from the network.
+      - "127.0.0.1:3300:8080"
     environment:
       ENABLE_OLLAMA_API: "false"
       OPENAI_API_BASE_URL: "http://host.docker.internal:8000/v1"
       OPENAI_API_KEY: "local-not-used"
-      WEBUI_AUTH: "false"
+      WEBUI_AUTH: "false"  # single-user local demo; set to "true" before exposing it anywhere
       ENABLE_TITLE_GENERATION: "false"
       ENABLE_TAGS_GENERATION: "false"
       ENABLE_FOLLOW_UP_GENERATION: "false"
