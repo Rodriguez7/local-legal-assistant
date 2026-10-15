@@ -1,0 +1,729 @@
+{
+ "label": "hard-base+rag",
+ "summary": {
+  "n": 34,
+  "correct": 0.824,
+  "wrong": 0.147,
+  "uncited": 0.029,
+  "ungrounded": 0.088,
+  "hit@k": 0.735
+ },
+ "results": [
+  {
+   "id": "h01",
+   "doc": "gdpr",
+   "gold": "17",
+   "answer": "[GDPR, Article 17(1)]",
+   "cited": [
+    "17"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "14",
+    "70",
+    "19",
+    "98",
+    "33"
+   ],
+   "hit": false,
+   "ungrounded": true
+  },
+  {
+   "id": "h02",
+   "doc": "gdpr",
+   "gold": "35",
+   "answer": "[GDPR, Article 35(1)]",
+   "cited": [
+    "35"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "10",
+    "35",
+    "35",
+    "35",
+    "38"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h03",
+   "doc": "gdpr",
+   "gold": "33",
+   "answer": "[GDPR, Article 33(2)]",
+   "cited": [
+    "33"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "37",
+    "5",
+    "33",
+    "54",
+    "33"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h04",
+   "doc": "gdpr",
+   "gold": "20",
+   "answer": "The right to move their full transaction history to a competing app is not directly granted by any of the provided sources. While the General Data Protection Regulation (GDPR) includes a right to data portability under Article 20, this article is not listed in the provided sources. Therefore, based solely on the sources given, no applicable GDPR article is identified that grants the right to move full transaction history to a competing app.\n\n[No source provides the relevant GDPR article.]",
+   "cited": [
+    "20"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "45",
+    "76",
+    "49",
+    "60",
+    "45"
+   ],
+   "hit": false,
+   "ungrounded": true
+  },
+  {
+   "id": "h05",
+   "doc": "gdpr",
+   "gold": "22",
+   "answer": "[GDPR, Article 22(1)] The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her or similarly significantly affects him or her. This article is most relevant because it addresses automated individual decision-making, including profiling, which in this case involves an algorithm rejecting a loan applicant without human involvement. The right to object to such decisions and to request human intervention is also provided under Article 22(3), which supports the applicant's complaint.",
+   "cited": [
+    "22"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "60",
+    "65",
+    "22",
+    "14",
+    "119"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h06",
+   "doc": "gdpr",
+   "gold": "28",
+   "answer": "[2] GDPR, Article 28(3) requires a contract or other legal act under Union or Member State law that is binding on the processor, governing processing by a processor. This contract must stipulate, in particular, that the processor processes personal data only on documented instructions from the controller. Therefore, the GDPR article that requires a binding contract with the cloud provider is [2] GDPR, Article 28(3).",
+   "cited": [
+    "28"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "47",
+    "28",
+    "47",
+    "13",
+    "22"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h07",
+   "doc": "gdpr",
+   "gold": "83",
+   "answer": "[GDPR, Article 83(2)]",
+   "cited": [
+    "83"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "83",
+    "33",
+    "100",
+    "33",
+    "34"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h08",
+   "doc": "gdpr",
+   "gold": "25",
+   "answer": "[GDPR, Article 25(2)]",
+   "cited": [
+    "25"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "25",
+    "119",
+    "22",
+    "91",
+    "14"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h09",
+   "doc": "ai_act",
+   "gold": "6",
+   "answer": "The AI Act does not contain a specific article that directly defines whether a bank using AI to evaluate creditworthiness constitutes a high-risk AI system. The determination of whether an AI system is high-risk is based on the conditions set out in Article 6(3), which specifies the criteria for classifying an AI system as high-risk. However, the provided sources do not include the full text of Article 6(3) or the conditions for high-risk classification.\n\nTherefore, based solely on the provided sources, it cannot be determined from which AI Act article the classification of the bank's AI system as high-risk is determined. [Sources do not contain the answer.]",
+   "cited": [
+    "6"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "15",
+    "9",
+    "14",
+    "16",
+    "80"
+   ],
+   "hit": false,
+   "ungrounded": true
+  },
+  {
+   "id": "h10",
+   "doc": "ai_act",
+   "gold": "50",
+   "answer": "[AI Act, Article 50(1)]",
+   "cited": [
+    "50"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "111",
+    "50",
+    "25",
+    "62",
+    "1"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h11",
+   "doc": "ai_act",
+   "gold": "5",
+   "answer": "[AI Act, Article 5(1)(c)] bans social scoring in the workplace, as it prohibits AI systems that evaluate or classify natural persons based on their social behaviour or inferred personal characteristics, leading to detrimental or unfavourable treatment in social contexts unrelated to the original data collection context or unjustified, disproportionate treatment based on social behaviour.\n\n[AI Act, Article 5(1)(f)] bans emotion recognition in the workplace, as it prohibits the use of AI systems to infer emotions of a natural person in workplace institutions, except where the use is intended for medical or safety reasons.",
+   "cited": [
+    "5"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "50",
+    "5",
+    "14",
+    "59",
+    "2"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h12",
+   "doc": "ai_act",
+   "gold": "14",
+   "answer": "[1] AI Act, Article 14(4)(d): The oversight measures shall enable natural persons to decide, in any particular situation, not to use the high-risk AI system or to otherwise disregard, override or reverse the output of the high-risk AI system.",
+   "cited": [
+    "14"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "14",
+    "20",
+    "25",
+    "14",
+    "16"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h13",
+   "doc": "ai_act",
+   "gold": "99",
+   "answer": "The AI Act does not set maximum fines for using a prohibited AI practice in a specific article. While Article 5(8) states that the prohibitions under the AI Act do not affect other Union law, it does not establish fines for prohibited AI practices. The fines for providers of general-purpose AI models are detailed in Article 101, but these apply specifically to such providers and their compliance with obligations, not to all prohibited AI practices generally. Therefore, no article in the provided sources sets maximum fines for using a prohibited AI practice. [1] does not mention fines; [2], [3], and [4] relate only to general-purpose AI models and their compliance, not to prohibited AI practices broadly. Thus, based on the provided sources, there is no article that sets maximum fines for using a prohibited AI practice.",
+   "cited": [
+    "5",
+    "101"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "5",
+    "101",
+    "101",
+    "101",
+    "14"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h14",
+   "doc": "ai_act",
+   "gold": "53",
+   "answer": "The provider's duties, such as technical documentation and a copyright policy, are set out in AI Act, Article 53(1)[1].",
+   "cited": [
+    "53"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "53",
+    "91",
+    "54",
+    "11",
+    "23"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h15",
+   "doc": "psd2",
+   "gold": "73",
+   "answer": "[PSD2, Article 73(1)]",
+   "cited": [
+    "73"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "74",
+    "73",
+    "77",
+    "76",
+    "89"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h16",
+   "doc": "psd2",
+   "gold": "66",
+   "answer": "[PSD2, Article 66(3)(a)] sets the bank's duties towards the payment initiation provider, as it requires the account servicing payment service provider (which includes banks) to not hold at any time the payer’s funds in connection with the provision of the payment initiation service. This establishes a key duty of the bank when acting as the account servicing payment service provider.",
+   "cited": [
+    "66"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "47",
+    "66",
+    "66",
+    "66",
+    "46"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h17",
+   "doc": "psd2",
+   "gold": "67",
+   "answer": "[PSD2, Article 67(2)]",
+   "cited": [
+    "67"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "67",
+    "67",
+    "67",
+    "67",
+    "57"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h18",
+   "doc": "psd2",
+   "gold": "97",
+   "answer": "[PSD2, Article 97(2)]",
+   "cited": [
+    "97"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "65",
+    "57",
+    "97",
+    "57",
+    "56"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h19",
+   "doc": "psd2",
+   "gold": "74",
+   "answer": "[PSD2, Article 74(1)]",
+   "cited": [
+    "74"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "75",
+    "74",
+    "74",
+    "68",
+    "74"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h20",
+   "doc": "dora",
+   "gold": "19",
+   "answer": "[5] DORA, Article 19(7): Reporting of major ICT-related incidents and voluntary notification of significant cyber threats.",
+   "cited": [
+    "19"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "19",
+    "96",
+    "19",
+    "19",
+    "19"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h21",
+   "doc": "dora",
+   "gold": "30",
+   "answer": "[5] DORA, Article 28(5): General principles  \n5. Financial entities may only enter into contractual arrangements with ICT third-party service providers that comply with appropriate information security standards. When those contractual arrangements concern critical or important functions, financial entities shall, prior to concluding the arrangements, take due consideration of the use, by ICT third-party service providers, of the most up-to-date and highest quality information security standards.  \n\nThis article specifies that contract terms must include compliance with appropriate information security standards, particularly when the arrangements involve critical or important functions. Therefore, the relevant DORA article listing the contract terms that must be included is [5] DORA, Article 28(5).",
+   "cited": [
+    "28"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "73",
+    "73",
+    "11",
+    "19",
+    "28"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h22",
+   "doc": "dora",
+   "gold": "26",
+   "answer": "[1] DORA, Article 26(2): Advanced testing of ICT tools, systems and processes based on TLPT. Each threat-led penetration test shall cover several or all critical or important functions of a financial entity, and shall be performed on live production systems supporting such functions.",
+   "cited": [
+    "26"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "26",
+    "25",
+    "26",
+    "27",
+    "24"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h23",
+   "doc": "dora",
+   "gold": "5",
+   "answer": "[1] DORA, Article 5(2)(d): The management body shall bear the overall responsibility for setting and approving the digital operational resilience strategy as referred to in Article 6(8), including the determination of the appropriate risk tolerance level of ICT risk of the financial entity, as referred to in Article 6(8), point (b).",
+   "cited": [
+    "5",
+    "6"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "5",
+    "28",
+    "5",
+    "6",
+    "28"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h24",
+   "doc": "dora",
+   "gold": "28",
+   "answer": "The general principles regarding the assessment of concentration risk and the maintenance of a register of information before engaging an ICT provider are set out in DORA, Article 28(3). [1]",
+   "cited": [
+    "28"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "28",
+    "29",
+    "29",
+    "5",
+    "28"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h25",
+   "doc": "mica",
+   "gold": "6",
+   "answer": "The document that a company must publish when launching a new token is defined by MiCA, Article 51(13) for e-money tokens and Article 19(6) for asset-referenced tokens. Therefore, the relevant MiCA articles are:\n\n[1] MiCA, Article 51(13): Content and form of the crypto-asset white paper for e-money tokens  \n[2] MiCA, Article 19(6): Content and form of the crypto-asset white paper for asset-referenced tokens  \n\nThese articles specify the content and form of the crypto-asset white paper required for each type of token.",
+   "cited": [
+    "19",
+    "51"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "51",
+    "19",
+    "51",
+    "51",
+    "51"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h26",
+   "doc": "mica",
+   "gold": "59",
+   "answer": "[MiCA, Article 4(5)] governs the authorisation needed for providing custody and administration of crypto-assets on behalf of clients, as it specifies when authorisation as a crypto-asset service provider is required. Additionally, [MiCA, Article 60(3)] establishes that providing custody and administration of crypto-assets on behalf of clients is deemed equivalent to an ancillary service under Directive 2014/65/EU, which may influence the regulatory pathway for such services. However, the primary article governing the authorisation requirement for custody and administration is [MiCA, Article 4(5)].",
+   "cited": [
+    "4",
+    "60"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "4",
+    "1",
+    "75",
+    "60",
+    "11"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h27",
+   "doc": "mica",
+   "gold": "89",
+   "answer": "None of the provided sources prohibit the use of non-public information for trading. The sources discuss requirements for crypto-asset white papers, liability for misleading information, exemptions for certain types of offers, and disclosure of conflicts of interest, but none address the use of non-public information in trading. Therefore, based solely on the provided sources, no MiCA article prohibits this action.",
+   "cited": [],
+   "correct": false,
+   "wrong": false,
+   "uncited": true,
+   "retrieved": [
+    "4",
+    "15",
+    "4",
+    "4",
+    "32"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h28",
+   "doc": "mica",
+   "gold": "91",
+   "answer": "[MiCA, Article 91(2)(c)]",
+   "cited": [
+    "91"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "91",
+    "91",
+    "76",
+    "4",
+    "76"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h29",
+   "doc": "mica",
+   "gold": "88",
+   "answer": "[MiCA, Article 30(3)] requires the issuer to disclose, in a clear, accurate and transparent manner, any event that has or is likely to have a significant effect on the value of the asset-referenced tokens or on the reserve of assets. Price-sensitive information falls within this category if it has or is likely to have a significant effect on the value of the token. Therefore, the issuer must disclose such information publicly on its website as soon as possible.",
+   "cited": [
+    "30"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "28",
+    "30",
+    "26",
+    "19",
+    "32"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h30",
+   "doc": "amlr",
+   "gold": "22",
+   "answer": "[AMLR, Article 22(2)]",
+   "cited": [
+    "22"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "22",
+    "22",
+    "22",
+    "22",
+    "22"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h31",
+   "doc": "amlr",
+   "gold": "33",
+   "answer": "[AMLR, Article 33(1)]",
+   "cited": [
+    "33"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "33",
+    "33",
+    "33",
+    "20",
+    "33"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h32",
+   "doc": "amlr",
+   "gold": "69",
+   "answer": "[AMLR, Article 69(6)]",
+   "cited": [
+    "69"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "69",
+    "69",
+    "11",
+    "81",
+    "71"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h33",
+   "doc": "amlr",
+   "gold": "10",
+   "answer": "[AMLR, Article 10(1)]",
+   "cited": [
+    "10"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "6",
+    "10",
+    "12",
+    "20",
+    "52"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h34",
+   "doc": "amlr",
+   "gold": "34",
+   "answer": "[AMLR, Article 34(1)]",
+   "cited": [
+    "34"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "34",
+    "34",
+    "34",
+    "34",
+    "34"
+   ],
+   "hit": true,
+   "ungrounded": false
+  }
+ ]
+}

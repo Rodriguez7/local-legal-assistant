@@ -1,0 +1,856 @@
+{
+ "label": "base+rag",
+ "summary": {
+  "n": 40,
+  "correct": 1.0,
+  "wrong": 0.0,
+  "uncited": 0.0,
+  "ungrounded": 0.025,
+  "hit@k": 1.0
+ },
+ "results": [
+  {
+   "id": "q01",
+   "doc": "gdpr",
+   "gold": "17",
+   "answer": "Under the GDPR, the right to have personal data erased (the 'right to be forgotten') is given in Article 17(1). [GDPR, Article 17(1)]",
+   "cited": [
+    "17"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "17",
+    "17",
+    "15",
+    "16",
+    "15"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q02",
+   "doc": "gdpr",
+   "gold": "15",
+   "answer": "Under the GDPR, the right to obtain a copy of personal data and information about its processing is given by Article 15(1) and Article 15(3). Specifically, Article 15(1) grants the data subject the right to access personal data and information about the processing, and Article 15(3) states that the controller shall provide a copy of the personal data undergoing processing [GDPR, Article 15(1)] and [GDPR, Article 15(3)].",
+   "cited": [
+    "15"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "15",
+    "13",
+    "15",
+    "15",
+    "13"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q03",
+   "doc": "gdpr",
+   "gold": "20",
+   "answer": "[GDPR, Article 20(1)]",
+   "cited": [
+    "20"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "20",
+    "14",
+    "13",
+    "15",
+    "15"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q04",
+   "doc": "gdpr",
+   "gold": "7",
+   "answer": "[GDPR, Article 7]",
+   "cited": [
+    "7"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "7",
+    "14",
+    "8",
+    "83",
+    "46"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q05",
+   "doc": "gdpr",
+   "gold": "6",
+   "answer": "Under the GDPR, Article 6(1) lists the legal bases that make processing lawful. [GDPR, Article 6(1)]",
+   "cited": [
+    "6"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "6",
+    "6",
+    "6",
+    "28",
+    "18"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q06",
+   "doc": "gdpr",
+   "gold": "33",
+   "answer": "Under the GDPR, Article 33(1) requires notifying the supervisory authority of a personal data breach, and the deadline is without undue delay and, where feasible, not later than 72 hours after having become aware of it. [GDPR, Article 33(1)]",
+   "cited": [
+    "33"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "33",
+    "33",
+    "33",
+    "33",
+    "34"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q07",
+   "doc": "gdpr",
+   "gold": "35",
+   "answer": "Under the GDPR, a data protection impact assessment is required pursuant to Article 35. [GDPR, Article 35]",
+   "cited": [
+    "35"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "35",
+    "35",
+    "35",
+    "35",
+    "35"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q08",
+   "doc": "gdpr",
+   "gold": "37",
+   "answer": "The GDPR does not specify a single article that states when a data protection officer must be designated. Instead, the obligation to designate a data protection officer arises under specific conditions outlined in Articles 37(2), (3), and (6), which relate to the circumstances under which a data protection officer is required. However, the general requirement for designation is established in Article 37, which sets out the conditions for appointing a data protection officer. \n\nThus, the relevant provision is [GDPR, Article 37].",
+   "cited": [
+    "37"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "37",
+    "37",
+    "37",
+    "37",
+    "37"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q09",
+   "doc": "gdpr",
+   "gold": "22",
+   "answer": "[GDPR, Article 22]",
+   "cited": [
+    "22"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "22",
+    "14",
+    "76",
+    "13",
+    "9"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q10",
+   "doc": "gdpr",
+   "gold": "28",
+   "answer": "The relationship between a controller and a processor is governed by GDPR, Article 28(3). [GDPR, Article 28(3)]",
+   "cited": [
+    "28"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "28",
+    "29",
+    "28",
+    "32",
+    "28"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q11",
+   "doc": "gdpr",
+   "gold": "83",
+   "answer": "The article that sets the general conditions for imposing administrative fines under the GDPR is [GDPR, Article 83(1)].",
+   "cited": [
+    "83"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "83",
+    "83",
+    "83",
+    "83",
+    "83"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q12",
+   "doc": "gdpr",
+   "gold": "25",
+   "answer": "Under the GDPR, data protection by design and by default is required by Article 25. [1]",
+   "cited": [
+    "25"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "25",
+    "37",
+    "37",
+    "80",
+    "37"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q13",
+   "doc": "ai_act",
+   "gold": "5",
+   "answer": "Under the EU AI Act, Article 5(6), Article 5(7), and Article 5(8) list prohibited AI practices. [1] [2] [3]",
+   "cited": [
+    "5"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "5",
+    "5",
+    "5",
+    "74",
+    "5"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q14",
+   "doc": "ai_act",
+   "gold": "6",
+   "answer": "The classification rules for high-risk AI systems are set in Article 6 of the EU AI Act [1].",
+   "cited": [
+    "6"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "6",
+    "6",
+    "26",
+    "6",
+    "16"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q15",
+   "doc": "ai_act",
+   "gold": "14",
+   "answer": "Under the EU AI Act, human oversight of high-risk AI systems is required by Article 14. [AI Act, Article 14(1)]",
+   "cited": [
+    "14"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "14",
+    "14",
+    "14",
+    "14",
+    "26"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q16",
+   "doc": "ai_act",
+   "gold": "50",
+   "answer": "[AI Act, Article 50(1)]",
+   "cited": [
+    "50"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "50",
+    "50",
+    "50",
+    "13",
+    "50"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q17",
+   "doc": "ai_act",
+   "gold": "4",
+   "answer": "[AI Act, Article 4: AI literacy]",
+   "cited": [
+    "4"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "4",
+    "26",
+    "13",
+    "50",
+    "13"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q18",
+   "doc": "ai_act",
+   "gold": "53",
+   "answer": "The obligations of providers of general-purpose AI models are set out in Article 53 of the AI Act. [1]",
+   "cited": [
+    "53"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "53",
+    "53",
+    "53",
+    "55",
+    "54"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q19",
+   "doc": "ai_act",
+   "gold": "99",
+   "answer": "The AI Act lays down penalties and administrative fines under Articles 99 and 100. Specifically, Article 99 sets out penalties for non-compliance with the prohibition of certain AI practices, including administrative fines, while Article 100 addresses administrative fines for Union institutions, bodies, offices, and agencies. [3] and [1] and [4] and [2] and [5] collectively provide the framework for penalties and fines, with Article 99(3) detailing the maximum fines for non-compliance with prohibited AI practices, and Article 100(3) and (2) specifying fines for non-compliance by Union institutions. Therefore, the articles laying down penalties and administrative fines are Articles 99 and 100 of the AI Act. [3] [1] [4] [2] [5]",
+   "cited": [
+    "99",
+    "100"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "100",
+    "99",
+    "99",
+    "100",
+    "99"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q20",
+   "doc": "psd2",
+   "gold": "97",
+   "answer": "Under PSD2, strong customer authentication is required by Article 97. [PSD2, Article 97]",
+   "cited": [
+    "97"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "97",
+    "98",
+    "98",
+    "98",
+    "98"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q21",
+   "doc": "psd2",
+   "gold": "74",
+   "answer": "[PSD2, Article 74(1)]",
+   "cited": [
+    "74"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "74",
+    "74",
+    "74",
+    "73",
+    "89"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q22",
+   "doc": "psd2",
+   "gold": "66",
+   "answer": "[PSD2, Article 66] sets the rules for access to payment accounts by payment initiation service providers.",
+   "cited": [
+    "66"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "66",
+    "66",
+    "66",
+    "66",
+    "68"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q23",
+   "doc": "psd2",
+   "gold": "67",
+   "answer": "[PSD2, Article 67]",
+   "cited": [
+    "67"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "67",
+    "67",
+    "67",
+    "67",
+    "66"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q24",
+   "doc": "psd2",
+   "gold": "73",
+   "answer": "[PSD2, Article 73]",
+   "cited": [
+    "73"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "73",
+    "74",
+    "74",
+    "74",
+    "71"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q25",
+   "doc": "dora",
+   "gold": "19",
+   "answer": "Under DORA, the reporting of major ICT-related incidents is required by Article 19(1)[1].",
+   "cited": [
+    "19"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "19",
+    "19",
+    "19",
+    "19",
+    "18"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q26",
+   "doc": "dora",
+   "gold": "26",
+   "answer": "Under DORA, advanced threat-led penetration testing (TLPT) is required by Article 26. [1]",
+   "cited": [
+    "26"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "26",
+    "26",
+    "27",
+    "26",
+    "26"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q27",
+   "doc": "dora",
+   "gold": "30",
+   "answer": "[1] DORA, Article 30(1): Key contractual provisions",
+   "cited": [
+    "30"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "30",
+    "30",
+    "30",
+    "30",
+    "29"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q28",
+   "doc": "dora",
+   "gold": "6",
+   "answer": "Under DORA, the ICT risk management framework is set out in Article 6(1)[1].",
+   "cited": [
+    "6"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "6",
+    "6",
+    "6",
+    "16",
+    "11"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q29",
+   "doc": "dora",
+   "gold": "5",
+   "answer": "Under DORA, Article 5(2)(a) assigns governance responsibility for ICT risk to the management body. [DORA, Article 5(2)].",
+   "cited": [
+    "5"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "5",
+    "5",
+    "5",
+    "5",
+    "6"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q30",
+   "doc": "dora",
+   "gold": "28",
+   "answer": "Under DORA, the general principles for managing ICT third-party risk are set out in Article 28(1). [DORA, Article 28(1)]",
+   "cited": [
+    "28"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "28",
+    "28",
+    "42",
+    "28",
+    "28"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q31",
+   "doc": "mica",
+   "gold": "6",
+   "answer": "Under MiCA, the content and form of the crypto-asset white paper are set by Articles 6(2), 6(4), 6(8), and 6(10), as these articles specify requirements related to fairness, clarity, structure, and format of the white paper. Specifically:\n\n- Article 6(2) sets requirements for fairness, clarity, and comprehensibility of the white paper. [4]\n- Article 6(4) prohibits assertions about the future value of the crypto-asset. [5]\n- Article 6(8) requires the white paper to include the date of notification and a table of contents. [3]\n- Article 6(10) mandates that the white paper be made available in a machine-readable format. [1]\n\nThus, the content and form of the crypto-asset white paper are addressed in Articles 6(2), 6(4), 6(8), and 6(10) of MiCA.",
+   "cited": [
+    "6"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "6",
+    "19",
+    "6",
+    "6",
+    "6"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q32",
+   "doc": "mica",
+   "gold": "59",
+   "answer": "The authorisation of crypto-asset service providers is governed by MiCA, Article 59(4), (6), and (8). Specifically, Article 59(4) states that crypto-asset service providers authorised in accordance with Article 63 shall at all times meet the conditions for their authorisation [1]. Article 59(6) specifies that competent authorities shall ensure that authorisations specify the crypto-asset services that providers are authorised to provide [2]. Article 59(8) outlines the process for extending authorisation by updating information as per Article 62 [3]. Thus, the authorisation framework is primarily set out in Article 59, with Article 63 serving as the basis for the actual authorisation process.",
+   "cited": [
+    "59",
+    "62",
+    "63"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "59",
+    "59",
+    "59",
+    "64",
+    "59"
+   ],
+   "hit": true,
+   "ungrounded": true
+  },
+  {
+   "id": "q33",
+   "doc": "mica",
+   "gold": "88",
+   "answer": "Under MiCA, Article 88 requires public disclosure of inside information. [1]",
+   "cited": [
+    "88"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "88",
+    "88",
+    "88",
+    "88",
+    "90"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q34",
+   "doc": "mica",
+   "gold": "89",
+   "answer": "Under MiCA, Article 89 prohibits insider dealing. [MiCA, Article 89]",
+   "cited": [
+    "89"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "89",
+    "89",
+    "89",
+    "89",
+    "89"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q35",
+   "doc": "mica",
+   "gold": "91",
+   "answer": "Under MiCA, market manipulation is prohibited by Article 91. [MiCA, Article 91(1)]",
+   "cited": [
+    "91"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "91",
+    "91",
+    "91",
+    "92",
+    "1"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q36",
+   "doc": "amlr",
+   "gold": "20",
+   "answer": "Under the EU AML Regulation 2024/1624, the customer due diligence measures obliged entities must apply are set out in Article 20(2). [2]",
+   "cited": [
+    "20"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "48",
+    "20",
+    "21",
+    "21",
+    "21"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q37",
+   "doc": "amlr",
+   "gold": "10",
+   "answer": "Under the EU AML Regulation 2024/1640, a business-wide risk assessment is required under Article 10(1). [1]",
+   "cited": [
+    "10"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "10",
+    "10",
+    "16",
+    "10",
+    "12"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q38",
+   "doc": "amlr",
+   "gold": "26",
+   "answer": "Under the EU AML Regulation 2024/1624, Article 26(1) requires ongoing monitoring of the business relationship. [1]",
+   "cited": [
+    "26"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "26",
+    "26",
+    "26",
+    "26",
+    "26"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q39",
+   "doc": "amlr",
+   "gold": "33",
+   "answer": "Under the EU AML Regulation 2024/1624, simplified due diligence measures are covered by Article 33. [AMLR, Article 33]",
+   "cited": [
+    "33"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "33",
+    "28",
+    "33",
+    "33",
+    "33"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "q40",
+   "doc": "amlr",
+   "gold": "69",
+   "answer": "[AMLR, Article 69(1)]",
+   "cited": [
+    "69"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "69",
+    "69",
+    "69",
+    "69",
+    "81"
+   ],
+   "hit": true,
+   "ungrounded": false
+  }
+ ]
+}

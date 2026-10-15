@@ -1,0 +1,740 @@
+{
+ "label": "hard-ft+rag",
+ "summary": {
+  "n": 34,
+  "correct": 0.765,
+  "wrong": 0.235,
+  "uncited": 0.0,
+  "ungrounded": 0.147,
+  "hit@k": 0.735
+ },
+ "results": [
+  {
+   "id": "h01",
+   "doc": "gdpr",
+   "gold": "17",
+   "answer": "The customer's request to delete all data held on them after account closure is governed by GDPR, Article 17(1), which requires the controller to erase personal data upon request, unless specific conditions apply. This applies to the deletion of personal data when the data subject requests it, including after account closure. [GDPR, Article 17(1)]",
+   "cited": [
+    "17"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "14",
+    "70",
+    "19",
+    "98",
+    "33"
+   ],
+   "hit": false,
+   "ungrounded": true
+  },
+  {
+   "id": "h02",
+   "doc": "gdpr",
+   "gold": "35",
+   "answer": "The GDPR article that requires us to assess the risks to individuals beforehand is [GDPR, Article 35(1)]. This applies to processing that is likely to result in a high risk to the rights and freedoms of natural persons, including profiling based on automated processing that produces legal effects or significantly affects individuals. The assessment must be carried out prior to processing, and a single assessment can cover a set of similar high-risk operations. [GDPR, Article 35(1)]",
+   "cited": [
+    "35"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "10",
+    "35",
+    "35",
+    "35",
+    "38"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h03",
+   "doc": "gdpr",
+   "gold": "33",
+   "answer": "The duty to tell the regulator about a personal data breach, including the leakage of customer email addresses, is set out in GDPR, Article 33(2), which requires the processor to notify the controller without undue delay after becoming aware of a personal data breach. This obligation applies to the processor, and the notification must be made to the competent authority as specified in Article 33(4) if the breach is likely to result in a risk to the rights and freedoms of individuals. [GDPR, Article 33(2)]",
+   "cited": [
+    "33"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "37",
+    "5",
+    "33",
+    "54",
+    "33"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h04",
+   "doc": "gdpr",
+   "gold": "20",
+   "answer": "The user can request access to their personal data, including transaction history, under the GDPR, specifically Article 15, which allows data subjects to obtain a copy of their personal data. However, the sources I was given do not address this. I can only answer from the retrieved provisions, so I'd rather say so than risk citing the wrong article.",
+   "cited": [
+    "15"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "45",
+    "76",
+    "49",
+    "60",
+    "45"
+   ],
+   "hit": false,
+   "ungrounded": true
+  },
+  {
+   "id": "h05",
+   "doc": "gdpr",
+   "gold": "22",
+   "answer": "The most relevant GDPR article for a loan applicant rejected by an algorithm with no human involvement is Article 22, which addresses automated individual decision-making, including profiling, and its legal effects on individuals [GDPR, Article 22]. This article ensures that individuals have the right not to be subject to decisions based solely on automated processing that produces legal effects or significantly affects them, unless specific conditions are met [GDPR, Article 22]. The applicant may then request human intervention, express their point of view, or contest the decision, as provided under Article 22(3) [GDPR, Article 22].",
+   "cited": [
+    "22"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "60",
+    "65",
+    "22",
+    "14",
+    "119"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h06",
+   "doc": "gdpr",
+   "gold": "28",
+   "answer": "The GDPR article that requires a binding contract with a processor is Article 28(3), which stipulates that processing by a processor shall be governed by a contract or other legal act under Union or Member State law that is binding on the processor with regard to the controller and sets out the subject-matter and duration of the processing, among other requirements [GDPR, Article 28(3)]. This contract must specify that the processor processes data only on documented instructions from the controller, including for transfers to third countries, and that it assists the controller in compliance with data protection obligations [GDPR, Article 28(3)]. Additionally, the processor must make available to the controller all information necessary to demonstrate compliance with the obligations under the GDPR, including to audits or inspections [GDPR, Article 28(3)].",
+   "cited": [
+    "28"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "47",
+    "28",
+    "47",
+    "13",
+    "22"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h07",
+   "doc": "gdpr",
+   "gold": "83",
+   "answer": "The factors it must weigh are listed in [GDPR, Article 83(2)]. This article specifies the relevant circumstances to be considered when deciding whether to impose an administrative fine and the amount of such fine, including the nature and gravity of the infringement, the degree of responsibility, cooperation with the supervisory authority, and other aggravating or mitigating factors.",
+   "cited": [
+    "83"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "83",
+    "33",
+    "100",
+    "33",
+    "34"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h08",
+   "doc": "gdpr",
+   "gold": "25",
+   "answer": "The GDPR article that requires data protection by design and by default, including automatic application of privacy-protective settings, is [GDPR, Article 25]. This article mandates that appropriate technical and organisational measures be implemented to ensure that by default, only necessary personal data are processed, and such measures integrate safeguards into processing to protect data subjects' rights. [GDPR, Article 25]",
+   "cited": [
+    "25"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "25",
+    "119",
+    "22",
+    "91",
+    "14"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h09",
+   "doc": "ai_act",
+   "gold": "6",
+   "answer": "The AI Act determines whether a system is high-risk based on its intended purpose and the potential impact on persons under 18 or other vulnerable groups, as specified in Article 9(9). This article requires that when implementing the risk management system, providers shall give consideration to whether the high-risk AI system is likely to have an adverse impact on persons under the age of 18 and, as appropriate, other vulnerable groups. [AI Act, Article 9(9)]",
+   "cited": [
+    "9"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "15",
+    "9",
+    "14",
+    "16",
+    "80"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h10",
+   "doc": "ai_act",
+   "gold": "50",
+   "answer": "The AI Act requires telling users they are talking to an AI if the AI system interacts directly with natural persons, unless it is obvious to a reasonably well-informed and circumspect person, taking into account the circumstances and context of use [AI Act, Article 50(1)]. This obligation applies to AI systems intended to interact directly with natural persons, including chatbots used in customer service [AI Act, Article 50(1)]. The requirement ensures transparency in AI interactions and allows users to make informed decisions about their engagement with AI systems [AI Act, Article 50(1)].",
+   "cited": [
+    "50"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "111",
+    "50",
+    "25",
+    "62",
+    "1"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h11",
+   "doc": "ai_act",
+   "gold": "5",
+   "answer": "The AI Act bans social scoring in the workplace under Article 5(1)(c), which prohibits AI systems for the evaluation or classification of natural persons or groups based on their social behaviour, leading to detrimental or unfavourable treatment in unrelated social contexts or unjustified disproportionate treatment [AI Act, Article 5(1)]. Emotion recognition in the workplace is banned unless the AI system is intended for medical or safety reasons, as specified in Article 5(1)(f) [AI Act, Article 5(1)]. These provisions apply to the workplace and education institutions, respectively [AI Act, Article 5(1)].",
+   "cited": [
+    "5"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "50",
+    "5",
+    "14",
+    "59",
+    "2"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h12",
+   "doc": "ai_act",
+   "gold": "14",
+   "answer": "The AI Act article that covers this is [AI Act, Article 14(4)]. It specifies that human oversight must enable individuals to decide not to use the system or to disregard, override, or reverse its output, as well as to intervene in its operation through a 'stop' button or similar procedure that allows it to come to a halt in a safe state. This ensures that human oversight is not merely passive but includes the ability to take control and halt the system when necessary. [AI Act, Article 14(4)]",
+   "cited": [
+    "14"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "14",
+    "20",
+    "25",
+    "14",
+    "16"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h13",
+   "doc": "ai_act",
+   "gold": "99",
+   "answer": "The AI Act sets the maximum fines for using a prohibited AI practice under Article 101(1), which specifies that the Commission may impose fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15,000,000, whichever is higher, for providers of general-purpose AI models who intentionally or negligently infringe the relevant provisions of the regulation [AI Act, Article 101(1)]. This applies to such practices as those prohibited under Article 5(8) of the AI Act [AI Act, Article 5(8)]. The Commission’s decision on the amount of the fine must take into account the nature, gravity, and duration of the infringement, as well as the principles of proportionality and appropriateness [AI Act, Article 101(1)]. Additionally, information on such fines must be communicated to the Board as appropriate [AI Act, Article 101(4)].",
+   "cited": [
+    "5",
+    "101"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "5",
+    "101",
+    "101",
+    "101",
+    "14"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h14",
+   "doc": "ai_act",
+   "gold": "53",
+   "answer": "The provider's duties, such as technical documentation and a copyright policy, are set out in AI Act, Article 53(1)(a) and (c), respectively. These obligations ensure that the provider maintains and updates technical documentation and implements a policy to comply with Union law on copyright and related rights. [AI Act, Article 53(1)]",
+   "cited": [
+    "53"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "53",
+    "91",
+    "54",
+    "11",
+    "23"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h15",
+   "doc": "psd2",
+   "gold": "73",
+   "answer": "The duty for the payer’s payment service provider to refund the payer the amount of an unauthorised payment transaction immediately, and in any event no later than by the end of the following business day, after noting or being notified of the transaction, is specified in PSD2, Article 73(1)(a) [PSD2, Article 73]. This applies regardless of whether the transaction was initiated through a payment initiation service provider, as long as the transaction is unauthorised and the provider has reasonable grounds for suspecting fraud, which must be communicated to the relevant national authority in writing [PSD2, Article 73]. The provider must also restore the debited payment account to the state it would have been had the transaction not occurred, and ensure the credit value date is no later than the date the amount was debited [PSD2, Article 73].",
+   "cited": [
+    "73"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "74",
+    "73",
+    "77",
+    "76",
+    "89"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h16",
+   "doc": "psd2",
+   "gold": "66",
+   "answer": "The bank's duties towards the payment initiation provider are set out in PSD2, Article 66(4), which requires the account servicing payment service provider to immediately after receipt of a payment order from a payment initiation service provider, provide or make available all information on the initiation of the payment transaction and all information accessible to the account servicing payment service provider regarding the execution of the payment transaction to the payment initiation service provider [PSD2, Article 66(4)]. This ensures secure and timely communication between the bank and the payment initiation service provider. Additionally, Article 47 mandates that the payment initiation service provider make available to the payer’s account servicing payment service provider the reference of the payment transaction [PSD2, Article 47].",
+   "cited": [
+    "47",
+    "66"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "47",
+    "66",
+    "66",
+    "66",
+    "46"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h17",
+   "doc": "psd2",
+   "gold": "67",
+   "answer": "Access by account information providers is governed by PSD2, Article 67(2), which requires that services be provided only based on the payment service user’s explicit consent and that the personalized security credentials of the payment service user are not accessible to other parties except the user and the issuer, transmitted through safe and efficient channels [PSD2, Article 67(2)]. Additionally, the account information service provider must access only the information from designated payment accounts and associated payment transactions, and not use, access, or store data for purposes other than those explicitly requested by the user [PSD2, Article 67(2)]. This framework ensures secure and user-consent-based access to account information.",
+   "cited": [
+    "67"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "67",
+    "67",
+    "67",
+    "67",
+    "57"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h18",
+   "doc": "psd2",
+   "gold": "97",
+   "answer": "The online checkout needs to verify the payer with two independent factors as required by PSD2, Article 97(2), which mandates that for electronic remote payment transactions, payment service providers apply strong customer authentication that includes elements that dynamically link the transaction to a specific amount and a specific payee. [PSD2, Article 97]",
+   "cited": [
+    "97"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "65",
+    "57",
+    "97",
+    "57",
+    "56"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h19",
+   "doc": "psd2",
+   "gold": "74",
+   "answer": "The payer’s liability for unauthorised payment transactions is capped at EUR 50, as specified in [PSD2, Article 74(1)]. This applies only if the loss, theft, or misappropriation of the payment instrument was detectable to the payer prior to the payment, except where the payer has acted fraudulently. The liability does not apply if the loss was caused by acts or lack of action of an employee, agent, or branch of a payment service provider, or if the payer failed to fulfil obligations under Article 69 with intent or gross negligence. In such cases, the maximum amount does not apply, and the payer may bear all losses. However, if the payer acted neither fraudulently nor with intent or gross negligence, Member States may reduce the liability based on specific circumstances.",
+   "cited": [
+    "69",
+    "74"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "75",
+    "74",
+    "74",
+    "68",
+    "74"
+   ],
+   "hit": true,
+   "ungrounded": true
+  },
+  {
+   "id": "h20",
+   "doc": "dora",
+   "gold": "19",
+   "answer": "The incident reporting duty is set out in DORA, Article 19(3), which requires financial entities to inform their clients about a major ICT-related incident and the measures taken to mitigate adverse effects, upon becoming aware of it [DORA, Article 19(3)]. This obligation applies when the incident has an impact on the financial interests of clients [DORA, Article 19(3)]. The notification to the competent authority is part of the broader framework under DORA, including Article 19(5) for outsourcing reporting obligations [DORA, Article 19(5)]. However, the primary incident reporting duty to clients and competent authorities is specifically defined in Article 19(3) and Article 19(7) respectively.",
+   "cited": [
+    "19"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "19",
+    "96",
+    "19",
+    "19",
+    "19"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h21",
+   "doc": "dora",
+   "gold": "30",
+   "answer": "The contract terms that must be included in a cloud outsourcing agreement covering critical functions are specified in DORA, Article 28(5), which requires financial entities to enter into contractual arrangements with ICT third-party service providers that comply with appropriate information security standards, and that prior to concluding such arrangements, due consideration must be given to the use of the most up-to-date and highest quality information security standards [DORA, Article 28(5)]. This ensures that the outsourcing of critical functions is conducted under robust and secure information security standards.",
+   "cited": [
+    "28"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "73",
+    "73",
+    "11",
+    "19",
+    "28"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h22",
+   "doc": "dora",
+   "gold": "26",
+   "answer": "The red-team style penetration tests on live systems are covered by DORA, Article 26(2), which states that each threat-led penetration test shall cover several or all critical or important functions of a financial entity and be performed on live production systems supporting such functions [DORA, Article 26(2)]. This includes the requirement to assess all relevant ICT systems and processes supporting such functions, including those outsourced to third-party service providers [DORA, Article 26(2)]. The testing must be part of a digital operational resilience testing programme as established under Article 24 [DORA, Article 24]. Additionally, the testers must possess specific expertise in threat intelligence, penetration testing, and red team testing, as required under Article 27(1)(b) [DORA, Article 27(1)].",
+   "cited": [
+    "24",
+    "26",
+    "27"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "26",
+    "25",
+    "26",
+    "27",
+    "24"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h23",
+   "doc": "dora",
+   "gold": "5",
+   "answer": "The board is responsible for approving and overseeing the ICT risk strategy as specified in DORA, Article 5(2)(d), which requires the management body to bear the overall responsibility for setting and approving the digital operational resilience strategy, including the determination of the appropriate risk tolerance level of ICT risk, as referred to in Article 6(8)(b) [DORA, Article 5(2)]. This responsibility ensures that the board plays a central role in the strategic oversight of ICT risk management. Additionally, Article 28(2) mandates that financial entities adopt a strategy on ICT third-party risk as part of their ICT risk management framework, which must be regularly reviewed based on the overall risk profile and scale of business services [DORA, Article 28(2)].",
+   "cited": [
+    "5",
+    "6",
+    "28"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "5",
+    "28",
+    "5",
+    "6",
+    "28"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h24",
+   "doc": "dora",
+   "gold": "28",
+   "answer": "Before engaging an ICT provider, a financial entity must assess concentration risk and keep a register of information. These general principles are set out in DORA, Article 28(3), which mandates that financial entities maintain and update a register of information on all contractual arrangements for ICT services, distinguishing between those supporting critical or important functions and others. The article also requires financial entities to assess whether such arrangements cover ICT services supporting critical or important functions and to assess supervisory conditions, risks, and due diligence. [DORA, Article 28(3)]",
+   "cited": [
+    "28"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "28",
+    "29",
+    "29",
+    "5",
+    "28"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h25",
+   "doc": "mica",
+   "gold": "6",
+   "answer": "The document that must be published is the crypto-asset white paper, and its content and form are defined in MiCA, Article 51(13) for e-money tokens, Article 51(6) for e-money tokens, and Article 19(6) for asset-referenced tokens. These articles specify the structure and requirements of the crypto-asset white paper. [MiCA, Article 51(13)] [MiCA, Article 51(6)] [MiCA, Article 19(6)]",
+   "cited": [
+    "19",
+    "51"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "51",
+    "19",
+    "51",
+    "51",
+    "51"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h26",
+   "doc": "mica",
+   "gold": "59",
+   "answer": "The authorisation needed for an exchange offering custody and trading of crypto-assets in the EU is governed by MiCA, Article 60(3), which states that an investment firm may provide crypto-asset services if it notifies the competent authority of the home Member State of the information referred to in paragraph 7 of the article at least 40 working days before providing those services for the first time [MiCA, Article 60(3)]. This includes providing custody and administration of crypto-assets on behalf of clients, which is deemed equivalent to the ancillary service under Directive 2014/65/EU [MiCA, Article 60(3)]. Additionally, the authorisation of crypto-asset service providers is required under MiCA, Article 1, which lays down the requirements for the authorisation and supervision of crypto-asset service providers [MiCA, Article 1].",
+   "cited": [
+    "1",
+    "60"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "4",
+    "1",
+    "75",
+    "60",
+    "11"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h27",
+   "doc": "mica",
+   "gold": "89",
+   "answer": "The trader's use of non-public information about an upcoming exchange listing may constitute a violation of MiCA Article 4(8), which requires the holder of a crypto-asset to present evidence that the offeror, person seeking admission to trading, or operator of the trading platform has provided information that is not complete, fair, or clear, or misleading, and that reliance on such information had an impact on the holder’s decision to purchase, sell, or exchange the crypto-asset [MiCA, Article 15(4)]. However, the question may concern a provision that prohibits the use of non-public information, which is not explicitly addressed in the retrieved sources. The sources do not specify this. Therefore, I can't answer it reliably from them. Try rephrasing, or check the relevant article directly.",
+   "cited": [
+    "4",
+    "15"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "4",
+    "15",
+    "4",
+    "4",
+    "32"
+   ],
+   "hit": false,
+   "ungrounded": false
+  },
+  {
+   "id": "h28",
+   "doc": "mica",
+   "gold": "91",
+   "answer": "Disseminating information through the media, including the internet, or by any other means, which gives, or is likely to give, false or misleading signals as to the supply of, demand for, or price of one or several crypto-assets, or secures or is likely to secure, the price of one or several crypto-assets, at an abnormal or artificial level, including the dissemination of rumours, where the person who engaged in the dissemination knew, or ought to have known, that the information was false or misleading, is prohibited under MiCA, Article 91(2)(c) [MiCA, Article 91(2)]. This prohibition applies to such activities as spreading false rumours to manipulate the price of a crypto-asset.",
+   "cited": [
+    "91"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "91",
+    "91",
+    "76",
+    "4",
+    "76"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h29",
+   "doc": "mica",
+   "gold": "88",
+   "answer": "An issuer of an asset-referenced token must disclose any event that has or is likely to have a significant effect on the value of the asset-referenced tokens or on the reserve of assets referred to in Article 36, in a clear, accurate and transparent manner on its website, as required by MiCA, Article 30. This obligation applies to such price-sensitive information if it is likely to significantly affect the value of the token. [MiCA, Article 30]",
+   "cited": [
+    "30",
+    "36"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [
+    "28",
+    "30",
+    "26",
+    "19",
+    "32"
+   ],
+   "hit": false,
+   "ungrounded": true
+  },
+  {
+   "id": "h30",
+   "doc": "amlr",
+   "gold": "22",
+   "answer": "Identification and verification of customers and beneficial owners is covered by AMLR, Article 22(2), which requires obliged entities to collect information on the beneficial owner of a legal entity or arrangement, including recording the identification of senior managing officials when no beneficial owner is identified or doubts exist [AMLR, Article 22(2)]. Additionally, Article 22(7) mandates the verification of the identity of the beneficial owner through reasonable measures and consultation with central registers, while Article 22(6) specifies the means of identity verification, including electronic identification under Regulation (EU) No 910/2014 [AMLR, Article 22(7)]; [AMLR, Article 22(6)].",
+   "cited": [
+    "22"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "22",
+    "22",
+    "22",
+    "22",
+    "22"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h31",
+   "doc": "amlr",
+   "gold": "33",
+   "answer": "The firm may apply lighter checks to a low-risk customer when the business relationship or transaction presents a low degree of risk, as specified in AMLR, Article 33(1), which outlines simplified due diligence measures [AMLR, Article 33(1)]. This article allows for reduced frequency of customer identification updates, reduced amount of information collected, and reduced scrutiny of transactions, all proportionate to the nature and size of the business and the specific elements of lower risk identified [AMLR, Article 33(1)]. Additionally, Article 33(4) requires that the conditions for applying simplified due diligence measures be regularly verified, with frequency commensurate to the business and risk profile [AMLR, Article 33(4)]. However, the application of such measures is not permitted in situations where there are doubts about the veracity of information, inconsistencies, or suspicion of money laundering or sanctions evasion, as specified in Article 33(5) [AMLR, Article 33(5)].",
+   "cited": [
+    "33"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "33",
+    "33",
+    "33",
+    "20",
+    "33"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h32",
+   "doc": "amlr",
+   "gold": "69",
+   "answer": "The AMLR article that covers reporting to the FIU when a compliance officer suspects a transaction is linked to money laundering is Article 69(6), which requires the compliance officer to transmit information to the FIU of the Member State in whose territory the obliged entity is established [AMLR, Article 69(6)]. This transmission must be made in accordance with Article 69(1)(a), which mandates the reporting of suspicions to the FIU on their own initiative when there is knowledge, suspicion, or reasonable grounds to suspect that funds or activities are the proceeds of criminal activity or related to terrorist financing [AMLR, Article 69(1)]. The compliance officer is specifically responsible for reporting suspicious transactions to the FIU in accordance with Article 69(6) [AMLR, Article 11(2)].",
+   "cited": [
+    "11",
+    "69"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "69",
+    "69",
+    "11",
+    "81",
+    "71"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h33",
+   "doc": "amlr",
+   "gold": "10",
+   "answer": "The AMLR article that requires a business-wide risk assessment to assess overall exposure to money laundering across all business lines is Article 10(1) [AMLR, Article 10(1)]. This article mandates that obliged entities take appropriate measures, proportionate to the nature of their business, including its risks and complexity, to identify and assess the risks of money laundering and terrorist financing, taking into account various risk variables and assessments at Union and national levels.",
+   "cited": [
+    "10"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "6",
+    "10",
+    "12",
+    "20",
+    "52"
+   ],
+   "hit": true,
+   "ungrounded": false
+  },
+  {
+   "id": "h34",
+   "doc": "amlr",
+   "gold": "34",
+   "answer": "The scope of enhanced due diligence is set out in Article 34(1) of the AMLR, which specifies that in cases referred to in Articles 29, 30, 31 and 36 to 46, as well as in other cases of higher risk identified by obliged entities, enhanced due diligence measures must be applied [AMLR, Article 34(1)]. This includes cases involving customers from high-risk countries, thereby triggering the need to apply enhanced due diligence measures [AMLR, Article 34(1)]. Additionally, Article 34(4) outlines specific measures that may be taken in such cases, including obtaining additional information on the customer and beneficial owners, and conducting enhanced monitoring [AMLR, Article 34(4)].",
+   "cited": [
+    "29",
+    "34"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [
+    "34",
+    "34",
+    "34",
+    "34",
+    "34"
+   ],
+   "hit": true,
+   "ungrounded": true
+  }
+ ]
+}

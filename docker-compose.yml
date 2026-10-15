@@ -1,0 +1,23 @@
+# Open WebUI in front of the legalrag service. Run `legalrag serve` on the host first
+# (Ollama and legalrag both run natively so they can use the Mac's GPU and local data).
+services:
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    ports:
+      - "3300:8080"
+    environment:
+      ENABLE_OLLAMA_API: "false"
+      OPENAI_API_BASE_URL: "http://host.docker.internal:8000/v1"
+      OPENAI_API_KEY: "local-not-used"
+      WEBUI_AUTH: "false"
+      ENABLE_TITLE_GENERATION: "false"
+      ENABLE_TAGS_GENERATION: "false"
+      ENABLE_FOLLOW_UP_GENERATION: "false"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - open-webui-data:/app/backend/data
+    restart: unless-stopped
+
+volumes:
+  open-webui-data:

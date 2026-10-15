@@ -1,0 +1,34 @@
+{"id": "h01", "doc": "gdpr", "question": "A customer emails our bank asking us to delete all the data we hold on them after they closed their account. Which GDPR article governs whether we must comply?", "gold_article": "17"}
+{"id": "h02", "doc": "gdpr", "question": "We plan to roll out a new credit-scoring algorithm that profiles customers at scale. Which GDPR article requires us to assess the risks to individuals beforehand?", "gold_article": "35"}
+{"id": "h03", "doc": "gdpr", "question": "Our payment app leaked customer email addresses yesterday. Which GDPR article sets our duty to tell the regulator?", "gold_article": "33"}
+{"id": "h04", "doc": "gdpr", "question": "A user wants to move their full transaction history to a competing app. Which GDPR article gives them that right?", "gold_article": "20"}
+{"id": "h05", "doc": "gdpr", "question": "A loan applicant was rejected by an algorithm with no human involved and is complaining. Which GDPR article is most relevant?", "gold_article": "22"}
+{"id": "h06", "doc": "gdpr", "question": "We hired a cloud provider to process our customers' personal data on our behalf. Which GDPR article requires a binding contract with them?", "gold_article": "28"}
+{"id": "h07", "doc": "gdpr", "question": "A regulator is deciding how large a fine to impose on us for a data breach. Which GDPR article lists the factors it must weigh?", "gold_article": "83"}
+{"id": "h08", "doc": "gdpr", "question": "We are designing a new app and want the most privacy-protective settings to apply automatically. Which GDPR article requires this?", "gold_article": "25"}
+{"id": "h09", "doc": "ai_act", "question": "A bank wants to use AI to evaluate the creditworthiness of individuals. Which AI Act article determines whether this counts as a high-risk system?", "gold_article": "6"}
+{"id": "h10", "doc": "ai_act", "question": "A startup wants to put a chatbot in front of customers. Which AI Act article requires telling users they are talking to an AI?", "gold_article": "50"}
+{"id": "h11", "doc": "ai_act", "question": "Which AI Act article bans social scoring and emotion recognition in the workplace?", "gold_article": "5"}
+{"id": "h12", "doc": "ai_act", "question": "A company running a high-risk AI system wants the people overseeing it to be able to override or stop it. Which AI Act article covers this?", "gold_article": "14"}
+{"id": "h13", "doc": "ai_act", "question": "Which AI Act article sets the maximum fines, for example for using a prohibited AI practice?", "gold_article": "99"}
+{"id": "h14", "doc": "ai_act", "question": "A company is releasing a large language model for general use. Which AI Act article sets the provider's duties, such as technical documentation and a copyright policy?", "gold_article": "53"}
+{"id": "h15", "doc": "psd2", "question": "A customer's card was used fraudulently and they want a refund by the end of the next business day. Which PSD2 article puts that duty on the provider?", "gold_article": "73"}
+{"id": "h16", "doc": "psd2", "question": "A fintech wants to initiate payments from a customer's bank account. Which PSD2 article sets the bank's duties towards the payment initiation provider?", "gold_article": "66"}
+{"id": "h17", "doc": "psd2", "question": "A budgeting app wants to read the customer's balances from several banks. Which PSD2 article governs access by account information providers?", "gold_article": "67"}
+{"id": "h18", "doc": "psd2", "question": "An online checkout needs to verify the payer with two independent factors. Which PSD2 article requires this?", "gold_article": "97"}
+{"id": "h19", "doc": "psd2", "question": "A customer lost their card and a thief spent money before it was blocked. Which PSD2 article caps how much of that loss the payer bears?", "gold_article": "74"}
+{"id": "h20", "doc": "dora", "question": "A bank discovers a major outage of its core banking system and must inform its supervisor. Which DORA article sets the incident reporting duty?", "gold_article": "19"}
+{"id": "h21", "doc": "dora", "question": "A bank signs a cloud outsourcing agreement covering critical functions. Which DORA article lists the contract terms that must be included?", "gold_article": "30"}
+{"id": "h22", "doc": "dora", "question": "A significant bank has to run red-team style penetration tests on live systems. Which DORA article covers this?", "gold_article": "26"}
+{"id": "h23", "doc": "dora", "question": "Which DORA article makes the board responsible for approving and overseeing the ICT risk strategy?", "gold_article": "5"}
+{"id": "h24", "doc": "dora", "question": "Before engaging an ICT provider, a financial entity must assess concentration risk and keep a register of information. Which DORA article sets these general principles?", "gold_article": "28"}
+{"id": "h25", "doc": "mica", "question": "A company wants to launch a new token and must publish a document describing it. Which MiCA article defines what that document must contain?", "gold_article": "6"}
+{"id": "h26", "doc": "mica", "question": "An exchange wants to offer custody and trading of crypto-assets in the EU. Which MiCA article governs the authorisation it needs?", "gold_article": "59"}
+{"id": "h27", "doc": "mica", "question": "A trader bought tokens using non-public information about an upcoming exchange listing. Which MiCA article prohibits this?", "gold_article": "89"}
+{"id": "h28", "doc": "mica", "question": "A platform spread false rumours to push up a token's price. Which MiCA article prohibits this?", "gold_article": "91"}
+{"id": "h29", "doc": "mica", "question": "An issuer holds price-sensitive information about its token. Which MiCA article requires it to disclose it publicly?", "gold_article": "88"}
+{"id": "h30", "doc": "amlr", "question": "A bank onboarding a corporate customer must identify the beneficial owner. Which AMLR article covers identification and verification of customers and beneficial owners?", "gold_article": "22"}
+{"id": "h31", "doc": "amlr", "question": "A firm wants to know when it may apply lighter checks to a low-risk customer. Which AMLR article covers simplified due diligence?", "gold_article": "33"}
+{"id": "h32", "doc": "amlr", "question": "A compliance officer suspects a transaction is linked to money laundering. Which AMLR article covers reporting to the FIU?", "gold_article": "69"}
+{"id": "h33", "doc": "amlr", "question": "A bank wants to assess its overall exposure to money laundering across all its business lines. Which AMLR article requires this?", "gold_article": "10"}
+{"id": "h34", "doc": "amlr", "question": "A firm has a customer from a high-risk country and must tighten its checks. Which AMLR article sets the scope of enhanced due diligence?", "gold_article": "34"}

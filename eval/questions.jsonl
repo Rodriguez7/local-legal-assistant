@@ -1,0 +1,40 @@
+{"id": "q01", "doc": "gdpr", "question": "Under the GDPR, which article gives a data subject the right to have their personal data erased (the 'right to be forgotten')?", "gold_article": "17"}
+{"id": "q02", "doc": "gdpr", "question": "Under the GDPR, which article gives a data subject the right to obtain a copy of their personal data and information about its processing?", "gold_article": "15"}
+{"id": "q03", "doc": "gdpr", "question": "Under the GDPR, which article gives the right to receive personal data in a structured, machine-readable format and transmit it to another controller?", "gold_article": "20"}
+{"id": "q04", "doc": "gdpr", "question": "Under the GDPR, which article sets the conditions a valid consent must meet?", "gold_article": "7"}
+{"id": "q05", "doc": "gdpr", "question": "Under the GDPR, which article lists the legal bases that make processing lawful?", "gold_article": "6"}
+{"id": "q06", "doc": "gdpr", "question": "Under the GDPR, which article requires notifying the supervisory authority of a personal data breach, and within what deadline?", "gold_article": "33"}
+{"id": "q07", "doc": "gdpr", "question": "Under the GDPR, which article requires a data protection impact assessment?", "gold_article": "35"}
+{"id": "q08", "doc": "gdpr", "question": "Under the GDPR, which article says when a data protection officer must be designated?", "gold_article": "37"}
+{"id": "q09", "doc": "gdpr", "question": "Under the GDPR, which article restricts decisions based solely on automated processing, including profiling?", "gold_article": "22"}
+{"id": "q10", "doc": "gdpr", "question": "Under the GDPR, which article governs the relationship between a controller and a processor?", "gold_article": "28"}
+{"id": "q11", "doc": "gdpr", "question": "Under the GDPR, which article sets the general conditions for imposing administrative fines?", "gold_article": "83"}
+{"id": "q12", "doc": "gdpr", "question": "Under the GDPR, which article requires data protection by design and by default?", "gold_article": "25"}
+{"id": "q13", "doc": "ai_act", "question": "Under the EU AI Act, which article lists the prohibited AI practices?", "gold_article": "5"}
+{"id": "q14", "doc": "ai_act", "question": "Under the EU AI Act, which article sets the classification rules for high-risk AI systems?", "gold_article": "6"}
+{"id": "q15", "doc": "ai_act", "question": "Under the EU AI Act, which article requires human oversight of high-risk AI systems?", "gold_article": "14"}
+{"id": "q16", "doc": "ai_act", "question": "Under the EU AI Act, which article imposes transparency obligations, for example telling people they are interacting with an AI system?", "gold_article": "50"}
+{"id": "q17", "doc": "ai_act", "question": "Under the EU AI Act, which article requires providers and deployers to ensure a sufficient level of AI literacy among their staff?", "gold_article": "4"}
+{"id": "q18", "doc": "ai_act", "question": "Under the EU AI Act, which article sets out the obligations of providers of general-purpose AI models?", "gold_article": "53"}
+{"id": "q19", "doc": "ai_act", "question": "Under the EU AI Act, which article lays down the penalties and administrative fines?", "gold_article": "99"}
+{"id": "q20", "doc": "psd2", "question": "Under PSD2, which article requires strong customer authentication?", "gold_article": "97"}
+{"id": "q21", "doc": "psd2", "question": "Under PSD2, which article limits the payer's liability for unauthorised payment transactions?", "gold_article": "74"}
+{"id": "q22", "doc": "psd2", "question": "Under PSD2, which article sets the rules for access to payment accounts by payment initiation service providers?", "gold_article": "66"}
+{"id": "q23", "doc": "psd2", "question": "Under PSD2, which article sets the rules for access to payment account information by account information service providers?", "gold_article": "67"}
+{"id": "q24", "doc": "psd2", "question": "Under PSD2, which article covers the payment service provider's liability, including refunds, for unauthorised payment transactions?", "gold_article": "73"}
+{"id": "q25", "doc": "dora", "question": "Under DORA, which article requires the reporting of major ICT-related incidents?", "gold_article": "19"}
+{"id": "q26", "doc": "dora", "question": "Under DORA, which article requires advanced threat-led penetration testing (TLPT)?", "gold_article": "26"}
+{"id": "q27", "doc": "dora", "question": "Under DORA, which article lists the key contractual provisions for ICT third-party service arrangements?", "gold_article": "30"}
+{"id": "q28", "doc": "dora", "question": "Under DORA, which article sets out the ICT risk management framework?", "gold_article": "6"}
+{"id": "q29", "doc": "dora", "question": "Under DORA, which article assigns governance responsibility for ICT risk to the management body?", "gold_article": "5"}
+{"id": "q30", "doc": "dora", "question": "Under DORA, which article sets the general principles for managing ICT third-party risk?", "gold_article": "28"}
+{"id": "q31", "doc": "mica", "question": "Under MiCA, which article sets the content and form of the crypto-asset white paper?", "gold_article": "6"}
+{"id": "q32", "doc": "mica", "question": "Under MiCA, which article governs the authorisation of crypto-asset service providers?", "gold_article": "59"}
+{"id": "q33", "doc": "mica", "question": "Under MiCA, which article requires public disclosure of inside information?", "gold_article": "88"}
+{"id": "q34", "doc": "mica", "question": "Under MiCA, which article prohibits insider dealing?", "gold_article": "89"}
+{"id": "q35", "doc": "mica", "question": "Under MiCA, which article prohibits market manipulation?", "gold_article": "91"}
+{"id": "q36", "doc": "amlr", "question": "Under the EU AML Regulation 2024/1624, which article sets out the customer due diligence measures obliged entities must apply?", "gold_article": "20"}
+{"id": "q37", "doc": "amlr", "question": "Under the EU AML Regulation 2024/1624, which article requires a business-wide risk assessment?", "gold_article": "10"}
+{"id": "q38", "doc": "amlr", "question": "Under the EU AML Regulation 2024/1624, which article requires ongoing monitoring of the business relationship?", "gold_article": "26"}
+{"id": "q39", "doc": "amlr", "question": "Under the EU AML Regulation 2024/1624, which article covers simplified due diligence measures?", "gold_article": "33"}
+{"id": "q40", "doc": "amlr", "question": "Under the EU AML Regulation 2024/1624, which article covers the reporting of suspicions to the FIU?", "gold_article": "69"}

@@ -1,0 +1,33 @@
+# The legal corpus. All texts come from the EU Publications Office (EUR-Lex / Cellar) in their
+# Official Journal version, reusable under CC BY 4.0 (Commission Decision 2011/833/EU).
+documents:
+  - id: gdpr
+    articles: 99
+    short: GDPR
+    celex: "32016R0679"
+    title: General Data Protection Regulation (EU) 2016/679
+  - id: ai_act
+    articles: 113
+    short: AI Act
+    celex: "32024R1689"
+    title: Artificial Intelligence Act, Regulation (EU) 2024/1689
+  - id: psd2
+    articles: 117
+    short: PSD2
+    celex: "32015L2366"
+    title: Payment Services Directive (EU) 2015/2366
+  - id: dora
+    articles: 64
+    short: DORA
+    celex: "32022R2554"
+    title: Digital Operational Resilience Act, Regulation (EU) 2022/2554
+  - id: mica
+    articles: 149
+    short: MiCA
+    celex: "32023R1114"
+    title: Markets in Crypto-Assets Regulation (EU) 2023/1114
+  - id: amlr
+    articles: 90
+    short: AMLR
+    celex: "32024R1624"
+    title: Anti-Money Laundering Regulation (EU) 2024/1624
