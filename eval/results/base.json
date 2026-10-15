@@ -2,9 +2,9 @@
  "label": "base",
  "summary": {
   "n": 40,
-  "correct": 0.25,
-  "wrong": 0.725,
-  "uncited": 0.025,
+  "correct": 0.325,
+  "wrong": 0.6,
+  "uncited": 0.075,
   "ungrounded": null,
   "hit@k": null
  },
@@ -13,7 +13,7 @@
    "id": "q01",
    "doc": "gdpr",
    "gold": "17",
-   "answer": "Under the GDPR, the right to have personal data erased, known as the 'right to be forgotten', is granted by **Article 17**.",
+   "answer": "Under the GDPR, the right to have personal data erased (the 'right to be forgotten') is granted by **Article 17**.",
    "cited": [
     "17"
    ],
@@ -28,7 +28,7 @@
    "id": "q02",
    "doc": "gdpr",
    "gold": "15",
-   "answer": "Under the GDPR, the right to obtain a copy of their personal data and information about its processing is granted by **Article 15**.\n\n**Article 15** – Right to access  \n(1) The data subject has the right to obtain from the controller confirmation of whether or not personal data concerning him or her is being processed, and if so, access to the personal data and, at least, the following information:  \n– the purposes of the processing;  \n– the categories of personal data concerned;  \n– the recipients or categories of recipients to whom the personal data have been disclosed;  \n– the envisaged period for which the personal data will be stored;  \n– the existence of the right to request rectification or deletion of the personal data or restriction of processing, and to obtain the transfer of the personal data to another controller;  \n– the right to object to processing;  \n– the existence of automated decision-making, including profiling, and a meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing;  \n– any other information relating to the processing of personal data which the data subject may reasonably expect.\n\nThus, the correct answer is: **Article 15**.",
+   "answer": "Under the GDPR, the right to obtain a copy of personal data and information about its processing is granted by **Article 15**.\n\n**Article 15** of the General Data Protection Regulation (GDPR) states that data subjects have the right to obtain confirmation from the controller as to whether personal data concerning them is being processed, and if so, to obtain access to that personal data and to be informed about the purposes of the processing and the categories of personal data concerned. \n\nThis includes the right to receive a copy of their personal data and information about its processing.",
    "cited": [
     "15"
    ],
@@ -43,12 +43,14 @@
    "id": "q03",
    "doc": "gdpr",
    "gold": "20",
-   "answer": "Under the GDPR, the right to receive personal data in a structured, machine-readable format and to transmit it to another controller is granted by **Article 17**.\n\nSpecifically, **Article 17(1)** of the General Data Protection Regulation (GDPR) states:\n\n> \"The data subject has the right to obtain from the controller, at any time, the personal data concerning him or her, which are being processed, and to have them communicated to another controller.\"\n\nThis right is commonly referred to as the **\"right to data portability\"**.\n\nThus, the correct answer is: **Article 17**.",
+   "answer": "Under the GDPR, the right to receive personal data in a structured, machine-readable format and to transmit it to another controller is granted by **Article 15**.\n\nHowever, it is important to clarify: **Article 15** of the GDPR deals with the right to access personal data, but the specific right to obtain and transmit personal data in a structured, machine-readable format is actually covered by **Article 17** — no, that is incorrect.\n\nThe correct answer is:\n\n✅ **Article 20** of the GDPR.\n\n**Article 20** states:  \n\"Where personal data are processed by automated means, the data subject has the right to obtain, in a structured, commonly used and machine-readable format, personal data concerning him or her, and to transmit those data to another controller.\"\n\nThus, the correct article is:\n\n👉 **Article 20** of the General Data Protection Regulation (GDPR).",
    "cited": [
-    "17"
+    "15",
+    "17",
+    "20"
    ],
-   "correct": false,
-   "wrong": true,
+   "correct": true,
+   "wrong": false,
    "uncited": false,
    "retrieved": [],
    "hit": null,
@@ -58,12 +60,12 @@
    "id": "q04",
    "doc": "gdpr",
    "gold": "7",
-   "answer": "Under the GDPR, a valid consent must meet the conditions set out in **Article 17**.",
+   "answer": "Under the GDPR, a valid consent must meet the conditions set out in **Article 7**.",
    "cited": [
-    "17"
+    "7"
    ],
-   "correct": false,
-   "wrong": true,
+   "correct": true,
+   "wrong": false,
    "uncited": false,
    "retrieved": [],
    "hit": null,
@@ -73,7 +75,7 @@
    "id": "q05",
    "doc": "gdpr",
    "gold": "6",
-   "answer": "Under the GDPR, Article 6 lists the legal bases that make processing lawful.  \n\nArticle 6 of the General Data Protection Regulation (GDPR) outlines the legal bases for processing personal data. It specifies that processing shall be lawful only if one of the following applies:  \n\n- Consent;  \n- Contractual necessity;  \n- Legal obligation;  \n- Vital interests;  \n- Public interest;  \n- Legitimate interests.  \n\nEach of these constitutes a valid legal basis for processing under the GDPR.  \n\n**Answer: Article 6**.",
+   "answer": "Under the GDPR, **Article 6** lists the legal bases that make processing lawful.",
    "cited": [
     "6"
    ],
@@ -88,7 +90,7 @@
    "id": "q06",
    "doc": "gdpr",
    "gold": "33",
-   "answer": "Under the GDPR, **Article 33** requires notifying the supervisory authority of a personal data breach.\n\nThe deadline is **within 72 hours** of the breach being discovered or reasonably suspected.\n\n> **Article 33 GDPR**: Member States shall ensure that, where a personal data breach is likely to result in a risk to the rights and freedoms of natural persons, the data controller or data processor shall notify the supervisory authority without undue delay, and in any event within 72 hours of the discovery of the breach.",
+   "answer": "Under the GDPR, **Article 33** requires notifying the supervisory authority of a personal data breach.\n\nThe deadline is **within 72 hours** of the breach being discovered or reasonably suspected.\n\n**Reference:**  \n**Article 33 GDPR** – Requires reporting a personal data breach to the supervisory authority without undue delay, and in any event within **72 hours** of the day on which the controller or processor becomes aware of the breach.",
    "cited": [
     "33"
    ],
@@ -103,7 +105,7 @@
    "id": "q07",
    "doc": "gdpr",
    "gold": "35",
-   "answer": "Under the GDPR, a data protection impact assessment (DPIA) is required under **Article 35**.\n\nArticle 35 of the General Data Protection Regulation (GDPR) mandates that a data protection impact assessment must be carried out when the processing of personal data is likely to result in a high risk to the rights and freedoms of natural persons. This includes, for example, large-scale processing of sensitive personal data or systematic monitoring of publicly accessible areas.",
+   "answer": "Under the GDPR, a data protection impact assessment (DPIA) is required under **Article 35**.\n\n**Article 35** of the General Data Protection Regulation (GDPR) states that when a data controller is likely to be processing personal data in a way that is likely to result in a high risk to the rights and freedoms of individuals, a data protection impact assessment must be carried out. This includes, for example, large-scale processing of sensitive personal data or systematic monitoring of publicly available sources.\n\nThus, the correct answer is: **Article 35**.",
    "cited": [
     "35"
    ],
@@ -118,7 +120,7 @@
    "id": "q08",
    "doc": "gdpr",
    "gold": "37",
-   "answer": "Under the GDPR, a Data Protection Officer (DPO) must be designated under **Article 37**.\n\nArticle 37 of the General Data Protection Regulation (GDPR) specifies the circumstances in which a data protection officer must be appointed. Specifically, a DPO is required when:\n\n- The organization is a public authority or body, or\n- The organization is engaged in large-scale processing of special categories of personal data (e.g., health, biometrics, etc.), or\n- The organization regularly and systematically monitors data subjects on a large scale.\n\nThus, the relevant article is **Article 37**.",
+   "answer": "Under the General Data Protection Regulation (GDPR), a Data Protection Officer (DPO) must be designated under **Article 37**.\n\n**Article 37** of the GDPR specifies the circumstances in which a data protection officer must be appointed, such as when a controller or processor is engaged in large-scale processing of special categories of personal data or in processing of personal data relating to criminal convictions and offences.\n\n👉 Therefore, the correct answer is: **Article 37**.",
    "cited": [
     "37"
    ],
@@ -133,7 +135,7 @@
    "id": "q09",
    "doc": "gdpr",
    "gold": "22",
-   "answer": "Under the GDPR, **Article 22** restricts decisions based solely on automated processing, including profiling.\n\n**Article 22** states that \"the data subject shall not be subject to a decision based solely on automated processing, including profiling, which produces legal or similarly significant effects concerning him or her.\"\n\nThis article ensures that individuals are not subjected to decisions that have legal or similarly significant effects—such as access to services, employment, or credit—based only on automated processing without human intervention.",
+   "answer": "Under the General Data Protection Regulation (GDPR), **Article 22** restricts decisions based solely on automated processing, including profiling, that produce legal or similarly significant effects.\n\n**Article 22 GDPR** states:  \n\"Where decisions are based solely on automated processing, including profiling, which produces legal or similarly significant effects concerning the data subject, such processing shall not be carried out unless:  \n(a) the data subject has given his explicit consent to the processing of personal data for the purpose of such decision; or  \n(b) the processing is necessary for entering into, or performing a contract between the data subject and the controller, or for taking steps at the request of the data subject prior to entering into a contract; or  \n(c) the processing is necessary for compliance with a legal obligation to which the data subject is subject; or  \n(d) the processing is necessary to protect the vital interests of the data subject or of another person; or  \n(e) the processing is carried out by a controller or a processor acting under a legal obligation to which the data subject is subject, and the processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller or processor.\"\n\nThis article ensures that such automated decisions do not occur without appropriate safeguards or legal justification.",
    "cited": [
     "22"
    ],
@@ -148,7 +150,7 @@
    "id": "q10",
    "doc": "gdpr",
    "gold": "28",
-   "answer": "Under the GDPR, the relationship between a controller and a processor is governed by **Article 28**.\n\nArticle 28 of the General Data Protection Regulation (GDPR) sets out the obligations of controllers and processors, including the requirement for a written agreement between them, the responsibilities of each party, and the need for the processor to act only on instructions from the controller. It also establishes that the processor must ensure compliance with the GDPR and must not use the personal data for any purpose other than that specified by the controller.\n\nThus, the correct answer is: **Article 28**.",
+   "answer": "Under the GDPR, the relationship between a controller and a processor is governed by **Article 28**.",
    "cited": [
     "28"
    ],
@@ -163,7 +165,7 @@
    "id": "q11",
    "doc": "gdpr",
    "gold": "83",
-   "answer": "Under the GDPR, the general conditions for imposing administrative fines are set out in **Article 83**.\n\nArticle 83 outlines the conditions under which the European Commission or national authorities may impose administrative fines, including the criteria for determining the amount of the fine, the principles of proportionality, and the role of the European Data Protection Board (EDPB) in ensuring consistent application.\n\nThus, the correct answer is: **Article 83**.",
+   "answer": "Under the GDPR, **Article 83** sets the general conditions for imposing administrative fines.\n\nThis article outlines the rules for the calculation, application, and enforcement of fines by the European Data Protection Board (EDPB) and national data protection authorities, including the maximum amounts and the criteria for determining the severity of the fine.",
    "cited": [
     "83"
    ],
@@ -178,7 +180,7 @@
    "id": "q12",
    "doc": "gdpr",
    "gold": "25",
-   "answer": "Under the GDPR, **Article 25** requires data protection by design and by default.\n\nArticle 25 of the General Data Protection Regulation (GDPR) states that data protection principles must be implemented by design and by default in the processing of personal data, including the use of technical and organizational measures to ensure that data protection is integrated into the processing from the outset.",
+   "answer": "Under the GDPR, **Article 25** requires data protection by design and by default.\n\n**Article 25** of the General Data Protection Regulation (GDPR) states that data protection measures, including data protection by design and by default, must be implemented in all processing activities.",
    "cited": [
     "25"
    ],
@@ -193,12 +195,12 @@
    "id": "q13",
    "doc": "ai_act",
    "gold": "5",
-   "answer": "Under the EU AI Act, **Article 17** lists the prohibited AI practices.\n\nThis article outlines specific AI systems and practices that are banned, including those that pose a high risk to people's safety, fundamental rights, or public interest. It prohibits the deployment of AI systems that:\n\n- Produce harmful effects on individuals or society;\n- Are used for mass surveillance of individuals;\n- Are used for social scoring;\n- Are used for the manipulation of individuals;\n- Are used for the creation of deepfakes in a way that misleads the public.\n\nThese prohibitions are part of the high-risk AI system framework under the AI Act.\n\n👉 Therefore, the correct answer is: **Article 17**.",
+   "answer": "Under the EU AI Act, **Article 5** lists the prohibited AI practices.\n\nThis article outlines specific AI systems and practices that are banned, including those that pose a high risk to people's safety, fundamental rights, or public interest. It prohibits the deployment of AI systems that:\n\n- Use biometric data for law enforcement purposes without a legal basis;\n- Perform automated decision-making that significantly affects individuals' rights and freedoms;\n- Are used in sensitive areas such as law enforcement, judicial decisions, or public services without proper safeguards.\n\nThus, the relevant provision is:\n\n**Article 5 – Prohibited practices** of the AI Act.",
    "cited": [
-    "17"
+    "5"
    ],
-   "correct": false,
-   "wrong": true,
+   "correct": true,
+   "wrong": false,
    "uncited": false,
    "retrieved": [],
    "hit": null,
@@ -208,7 +210,7 @@
    "id": "q14",
    "doc": "ai_act",
    "gold": "6",
-   "answer": "Under the EU AI Act, the classification rules for high-risk AI systems are set out in **Article 5**.\n\nArticle 5 establishes the criteria for identifying high-risk AI systems, including specific conditions related to the system's purpose, the nature of the data used, the level of human oversight, and the potential impact on safety, health, or fundamental rights. It defines which AI systems fall into the category of high-risk, thereby triggering specific obligations under the Act.\n\nFor example, Article 5(1) lists examples such as AI systems used in employment, education, law enforcement, and healthcare, which are considered high-risk due to their significant impact on individuals or society.\n\nThus, the correct answer is: **Article 5**.",
+   "answer": "Under the EU AI Act, **Article 5** sets the classification rules for high-risk AI systems.\n\nThis article establishes the criteria for identifying high-risk AI systems, including the types of systems that fall under this category (e.g., those used in critical infrastructure, public services, or that pose significant risks to health, safety, or fundamental rights).",
    "cited": [
     "5"
    ],
@@ -223,9 +225,9 @@
    "id": "q15",
    "doc": "ai_act",
    "gold": "14",
-   "answer": "Under the EU AI Act, human oversight of high-risk AI systems is required by **Article 17**.\n\nArticle 17 states that high-risk AI systems must be subject to human oversight, meaning that a human must be involved in the decision-making process at a critical stage, ensuring that the system's output is properly evaluated and that decisions are not made solely by the AI. This requirement applies to high-risk AI systems, such as those used in employment, education, or public administration.\n\nThus, the correct answer is: **Article 17**.",
+   "answer": "Under the EU AI Act, **Article 57** requires human oversight of high-risk AI systems.\n\nThis article mandates that high-risk AI systems must be subject to human oversight, meaning that decisions made by the AI system must be subject to human intervention and review to ensure accountability, transparency, and safety.",
    "cited": [
-    "17"
+    "57"
    ],
    "correct": false,
    "wrong": true,
@@ -238,9 +240,9 @@
    "id": "q16",
    "doc": "ai_act",
    "gold": "50",
-   "answer": "Under the EU AI Act, **Article 17** imposes transparency obligations, including the requirement to inform individuals when they are interacting with an AI system.\n\n**Article 17 – Transparency**  \nThis article mandates that when an AI system is used in a way that affects individuals, the user must be informed that they are interacting with an AI system. This includes clear and understandable information about the nature of the AI system and its capabilities, especially in cases where the AI may influence decisions affecting individuals.\n\nThus, the relevant article is: **Article 17**.",
+   "answer": "Under the EU AI Act, **Article 5(1)** imposes transparency obligations, requiring that individuals be informed when they are interacting with an AI system. This includes clear and understandable information about the use of AI, particularly in high-risk applications.\n\n**Article 5(1)** – Transparency:  \n\"Where an AI system is used in a way that may affect individuals’ rights and freedoms, the user shall be informed clearly and in an accessible manner that they are interacting with an AI system.\"\n\nThis provision ensures that users are aware when they are engaging with an AI, promoting transparency and accountability.",
    "cited": [
-    "17"
+    "5"
    ],
    "correct": false,
    "wrong": true,
@@ -253,7 +255,7 @@
    "id": "q17",
    "doc": "ai_act",
    "gold": "4",
-   "answer": "There is no specific article in the EU AI Act that requires providers and deployers to ensure a sufficient level of AI literacy among their staff.\n\nThe EU AI Act (Artificial Intelligence Act) focuses on risk-based obligations for AI systems, including transparency, human oversight, data governance, and safety. While it emphasizes the need for human oversight and accountability, it does not contain a direct requirement for \"AI literacy\" among staff.\n\nTherefore, **no article** in the EU AI Act mandates AI literacy for staff.\n\n*Note: AI literacy may be addressed in other regulatory or internal governance frameworks, but it is not a legal requirement under the EU AI Act.*",
+   "answer": "There is no specific article in the EU AI Act that requires providers and deployers to ensure a sufficient level of AI literacy among their staff.\n\nThe EU AI Act (Regulation (EU) 2024/2768) focuses on risk-based obligations for AI systems, including transparency, human oversight, data governance, and safety. While it emphasizes the need for human oversight and accountability, it does not contain a provision mandating \"AI literacy\" among staff.\n\nTherefore, **no article** in the EU AI Act requires AI literacy training for staff.\n\n✅ Answer: **No such article exists.**",
    "cited": [],
    "correct": false,
    "wrong": false,
@@ -266,9 +268,9 @@
    "id": "q18",
    "doc": "ai_act",
    "gold": "53",
-   "answer": "Under the EU AI Act, the obligations of providers of general-purpose AI models are set out in **Article 17**.\n\nArticle 17 establishes specific requirements for providers of general-purpose AI models, including the need to ensure transparency, provide clear information to users, conduct risk assessments, and implement appropriate measures to ensure safety and accountability. It also mandates that such providers must ensure that their models are not used in ways that could lead to harm or discrimination, and that they maintain records and documentation for regulatory purposes.\n\nFor more details, refer to:  \n**EU AI Act – Article 17 – General-purpose AI models**.",
+   "answer": "Under the EU AI Act, the obligations of providers of general-purpose AI models are set out in **Article 6**.\n\n**Article 6** of the AI Act establishes specific requirements for providers of general-purpose AI models, including the need to ensure transparency, provide clear information to users, and implement appropriate risk management measures. It also mandates that such providers conduct a risk assessment and maintain a record of compliance.\n\n> *Source: EU AI Act, Article 6 – General-purpose AI models*",
    "cited": [
-    "17"
+    "6"
    ],
    "correct": false,
    "wrong": true,
@@ -281,9 +283,9 @@
    "id": "q19",
    "doc": "ai_act",
    "gold": "99",
-   "answer": "Under the EU AI Act, the penalties and administrative fines are laid down in **Article 30**.\n\nArticle 30 specifies the sanctions, including administrative fines, for non-compliance with the obligations set out in the AI Act. It outlines the range of fines and the conditions under which they may be imposed, depending on the severity of the violation and the nature of the infringement.\n\n> **Article 30 – Penalties and administrative fines**  \n> (1) The Commission may impose administrative fines on persons who fail to comply with the obligations laid down in this Act.  \n> (2) The amount of the fine shall be determined in accordance with the severity of the infringement and the circumstances of the case.  \n> (3) The maximum fine for a serious infringement may be up to 10% of the total global annual turnover of the entity concerned.\n\nNote: The exact percentage and structure may be subject to further interpretation or implementation by the European Commission and national authorities.",
+   "answer": "Under the EU AI Act, **Article 39** lays down the penalties and administrative fines.\n\nThis article specifies the sanctions, including administrative fines, for non-compliance with the obligations set out in the AI Act, depending on the level of risk of the AI system and the nature of the violation.",
    "cited": [
-    "30"
+    "39"
    ],
    "correct": false,
    "wrong": true,
@@ -296,9 +298,9 @@
    "id": "q20",
    "doc": "psd2",
    "gold": "97",
-   "answer": "Under PSD2 (Payment Services Directive 2), **Article 17** requires strong customer authentication (SCA).\n\n**Article 17** of PSD2 establishes the requirement for strong customer authentication in payment services, ensuring that users are verified using at least one of the following:\n\n- Something the user knows (e.g., a password),\n- Something the user has (e.g., a mobile device or token),\n- Something the user is (e.g., biometric data).\n\nThis requirement applies to online payment services and is designed to enhance security and reduce fraud.\n\n✅ Answer: **Article 17**",
+   "answer": "Under PSD2 (Payment Services Directive 2), **Article 11** requires strong customer authentication (SCA).\n\nSpecifically, **Article 11(2)** of PSD2 mandates that strong customer authentication must be used when a payment service provider (PSP) is processing a payment transaction involving a customer's account, in order to ensure the security of the customer's data and prevent fraud.\n\n✅ Answer: **Article 11** of PSD2.",
    "cited": [
-    "17"
+    "11"
    ],
    "correct": false,
    "wrong": true,
@@ -311,9 +313,9 @@
    "id": "q21",
    "doc": "psd2",
    "gold": "74",
-   "answer": "Under PSD2 (Payment Services Directive 2), the payer's liability for unauthorized payment transactions is limited by **Article 17**.\n\n**Article 17** of PSD2 establishes the liability rules for unauthorized payments, stating that the liability of the payer is limited to a maximum amount, and that the payment service provider (e.g., the acquirer or issuer) must ensure that the payer is not held liable for unauthorized transactions, provided that the transaction was not authorized by the payer and the payment service provider has taken reasonable steps to prevent such unauthorized transactions.\n\nSpecifically, Article 17(3) states that the liability of the payer is limited to the amount of the transaction, and that the payment service provider must ensure that the payer is not liable for unauthorized transactions if the transaction was not authorized by the payer and the payment service provider has taken reasonable steps to prevent such unauthorized transactions.\n\nThus, the correct answer is: **Article 17**.",
+   "answer": "Under PSD2 (Payment Services Directive 2), **Article 29** limits the payer's liability for unauthorized payment transactions.\n\nSpecifically, **Article 29(2)** states that the payer's liability for unauthorized transactions is limited to a maximum amount, and this liability is capped at €100 (or the equivalent in the local currency) for transactions made via a payment service provider that has implemented appropriate security measures.\n\nThus, the relevant article is:\n\n**Article 29** – Liability for unauthorized transactions.",
    "cited": [
-    "17"
+    "29"
    ],
    "correct": false,
    "wrong": true,
@@ -326,9 +328,9 @@
    "id": "q22",
    "doc": "psd2",
    "gold": "66",
-   "answer": "Under PSD2 (Payment Services Directive 2015/21), the rules for access to payment accounts by payment initiation service providers (PISPs) are set out in **Article 17**.\n\n**Article 17** of PSD2 establishes the obligations for payment initiation service providers (PISPs) and sets out the requirements for secure access to payment accounts, including the need for strong customer authentication (SCA) and the implementation of secure communication protocols.\n\nThis article ensures that PISPs can access customer payment accounts to initiate payments, but only with the customer’s explicit consent and under strict security and privacy safeguards.\n\n👉 Therefore, the correct answer is: **Article 17**.",
+   "answer": "Under PSD2 (Payment Services Directive 2015/21), **Article 20** sets the rules for access to payment accounts by payment initiation service providers (PISPs).\n\nSpecifically, **Article 20** establishes the conditions under which a payment initiation service provider (PISP) may access a payment account, including the requirement for secure access via a secure gateway (such as a secure communication channel), and mandates that such access must be granted only with the explicit consent of the account holder and in accordance with the principles of data protection and security.\n\n👉 Therefore, the correct answer is: **Article 20**.",
    "cited": [
-    "17"
+    "20"
    ],
    "correct": false,
    "wrong": true,
@@ -341,9 +343,9 @@
    "id": "q23",
    "doc": "psd2",
    "gold": "67",
-   "answer": "Under PSD2 (Payment Services Directive 2015/21), the rules for access to payment account information by Account Information Service Providers (AISPs) are set out in **Article 17**.\n\n**Article 17** of PSD2 establishes the obligations of Account Information Service Providers (AISPs) and defines the conditions under which they may access and use payment account information, including the requirement to obtain explicit consent from the customer and to ensure secure access through a secure communication channel (such as a secure API).\n\nThus, the correct answer is: **Article 17**.",
+   "answer": "Under PSD2 (Payment Services Directive 2015/21), **Article 19** sets the rules for access to payment account information by Account Information Service Providers (AISPs).\n\nSpecifically, **Article 19** establishes the conditions under which AISPs can access and obtain payment account information from payment service providers (PSPs), including the requirement for secure, authenticated access through a secure communication channel and the need for the user’s consent.\n\n👉 **Answer: Article 19** of PSD2.",
    "cited": [
-    "17"
+    "19"
    ],
    "correct": false,
    "wrong": true,
@@ -356,9 +358,9 @@
    "id": "q24",
    "doc": "psd2",
    "gold": "73",
-   "answer": "Under PSD2 (Payment Services Directive 2015/23), the liability of a payment service provider (PSP) for unauthorized payment transactions, including refunds, is covered under **Article 17**.\n\n**Article 17** of PSD2 establishes the liability of payment service providers for unauthorized transactions and requires them to provide refunds to consumers in such cases. It ensures that consumers are protected and that payment service providers are liable for unauthorized transactions, including the obligation to refund the amount to the consumer.\n\n> **Article 17 – Liability for unauthorized transactions**  \n> A payment service provider shall be liable for unauthorized transactions and shall refund the amount to the consumer without delay.\n\nThis article is central to consumer protection under PSD2, ensuring that consumers are not left to bear the financial burden of unauthorized transactions.",
+   "answer": "Under PSD2 (Payment Services Directive 2015/21), the article that covers the payment service provider's liability, including refunds, for unauthorized payment transactions is **Article 29**.\n\n**Article 29** establishes that a payment service provider (PSP) must ensure that, in the event of an unauthorized transaction, the consumer is entitled to a refund, and the PSP is liable for such unauthorized transactions, including the cost of the refund and any related expenses.\n\n> **PSD2 Article 29**: \"A payment service provider shall ensure that, in the case of an unauthorized transaction, the consumer is entitled to a refund, and the payment service provider shall be liable for such unauthorized transactions.\"\n\nThis article supports the consumer's right to a refund and places clear liability on the PSP.",
    "cited": [
-    "17"
+    "29"
    ],
    "correct": false,
    "wrong": true,
@@ -371,9 +373,9 @@
    "id": "q25",
    "doc": "dora",
    "gold": "19",
-   "answer": "Under the Digital Operational Resilience Act (DORA), **Article 17** requires the reporting of major ICT-related incidents.\n\n**Article 17** of DORA establishes the obligation for covered entities to report major ICT-related incidents to the relevant national competent authority and, where applicable, to the European Union Financial Stability Board (EFSB). This includes incidents that may affect the resilience of the entity or the broader financial system.\n\n> **Article 17 DORA**: \"A covered entity shall report to the competent authority any major incident that affects the operation of its ICT systems and that may have a significant impact on the entity’s ability to perform its functions or on the stability of the financial system.\"\n\nThis reporting obligation ensures timely identification and response to ICT-related risks that could threaten financial stability.",
+   "answer": "Under the Digital Operational Resilience Act (DORA), **Article 33** requires the reporting of major ICT-related incidents.\n\n**Article 33** of DORA establishes the obligation for covered entities to report major ICT-related incidents to the relevant national supervisory authority and, where applicable, to the European Supervisory Authorities (ESAs). This includes incidents that may affect the resilience of the entity’s operations or the stability of the financial system.\n\n> **DORA Article 33**: \"A covered entity shall report to the competent authority any major ICT-related incident that may affect the resilience of the entity or the stability of the financial system.\"\n\nThis article ensures timely reporting to enable effective response and mitigation.",
    "cited": [
-    "17"
+    "33"
    ],
    "correct": false,
    "wrong": true,
@@ -386,9 +388,9 @@
    "id": "q26",
    "doc": "dora",
    "gold": "26",
-   "answer": "Under the Digital Operational Resilience Act (DORA), **Article 17** requires advanced threat-led penetration testing (TLPT).\n\n**Article 17** of DORA mandates that certain financial institutions, particularly those with significant exposure to operational risk, must conduct advanced threat-led penetration testing (TLPT) as part of their cybersecurity measures. This testing must be carried out by an independent third party and must be performed at least once every 12 months.\n\n> **Reference**: *Digital Operational Resilience Act (DORA), Article 17* – \"The operator of a financial institution shall carry out, at least once every 12 months, an advanced threat-led penetration test (TLPT) of its systems and services, conducted by an independent third party.\"\n\nThis requirement is designed to ensure that financial institutions are prepared to detect and respond to sophisticated cyber threats.",
+   "answer": "Under the Digital Operational Resilience Act (DORA), **Article 38** requires advanced threat-led penetration testing (TLPT) for certain financial institutions.\n\n**Article 38(1)** mandates that, for certain types of financial institutions (such as those with significant exposure to cyber risks), a **threat-led penetration test** must be conducted at least once every 12 months. This test must be designed to simulate real-world advanced threats and assess the resilience of the institution’s systems and processes.\n\nThus, the correct answer is: **Article 38**.",
    "cited": [
-    "17"
+    "38"
    ],
    "correct": false,
    "wrong": true,
@@ -401,9 +403,9 @@
    "id": "q27",
    "doc": "dora",
    "gold": "30",
-   "answer": "Under the Digital Operational Resilience Act (DORA), the key contractual provisions for ICT third-party service arrangements are listed in **Article 17**.\n\n**Article 17** of DORA requires that when a financial institution engages a third party for ICT services, it must ensure that the contract includes specific provisions related to operational resilience, including:\n\n- The scope of services and responsibilities;\n- The obligations of the third party regarding data protection and security;\n- The mechanisms for incident reporting and response;\n- The conditions under which the third party may be required to provide services during a disruption;\n- The obligations of the third party to maintain the confidentiality and integrity of data.\n\nThese provisions are designed to ensure that ICT service providers contribute to the overall resilience of the financial institution’s operations.\n\n👉 Therefore, the correct answer is: **Article 17**.",
+   "answer": "Under the Digital Operational Resilience Act (DORA), the key contractual provisions for ICT third-party service arrangements are listed in **Article 38**.\n\n**Article 38** of DORA requires that, when a financial institution engages a third party for ICT services, it must ensure that the contract includes specific provisions related to operational resilience, including:\n\n- The third party’s responsibilities for the security and resilience of ICT services;\n- The obligations of the third party to notify the financial institution of any incidents or events that could affect operational resilience;\n- The requirement for the third party to maintain appropriate controls and safeguards;\n- The need for clear and documented contractual arrangements to ensure the continuity of services.\n\nThis article ensures that financial institutions have appropriate contractual arrangements to manage risks associated with ICT third-party dependencies.\n\n👉 **Answer: Article 38**.",
    "cited": [
-    "17"
+    "38"
    ],
    "correct": false,
    "wrong": true,
@@ -416,9 +418,9 @@
    "id": "q28",
    "doc": "dora",
    "gold": "6",
-   "answer": "Under the Digital Operational Resilience Act (DORA), the ICT risk management framework is set out in **Article 17**.\n\n**Article 17** of DORA establishes the requirements for the governance, identification, assessment, and management of ICT risks, including the need for a clear and effective ICT risk management framework that ensures the resilience of digital systems and services. It mandates that firms implement a risk-based approach to managing ICT risks, including the identification of critical ICT systems and the establishment of appropriate controls and procedures.\n\nThus, the correct answer is: **Article 17**.",
+   "answer": "Under the Digital Operational Resilience Act (DORA), **Article 28** sets out the ICT risk management framework.\n\n**Article 28** establishes the requirements for the identification, assessment, and management of ICT risks, including the need for a risk-based approach, the implementation of a risk management framework, and the integration of ICT risk management into the overall risk management of the firm.\n\n> **DORA Article 28**: \"Each covered entity shall establish and maintain a risk management framework for ICT risks, which shall include a risk assessment and a risk mitigation strategy.\"\n\nThis framework ensures that firms identify, assess, and manage ICT risks effectively to ensure operational resilience.",
    "cited": [
-    "17"
+    "28"
    ],
    "correct": false,
    "wrong": true,
@@ -431,9 +433,9 @@
    "id": "q29",
    "doc": "dora",
    "gold": "5",
-   "answer": "Under the Digital Operational Resilience Act (DORA), **Article 17** assigns governance responsibility for ICT risk to the management body.\n\nSpecifically, **Article 17(1)** states that the management body of a financial entity shall ensure that the governance of ICT risk is effectively managed and that appropriate measures are in place to ensure the resilience of the entity’s ICT systems.\n\nThus, the correct answer is: **Article 17**.",
+   "answer": "Under the Digital Operational Resilience Act (DORA), **Article 13** assigns governance responsibility for ICT risk to the management body.\n\n**Article 13** states that the management body (such as the board of directors or equivalent) shall ensure that appropriate governance, oversight, and accountability mechanisms are in place for ICT risk, including the establishment of an ICT risk governance framework.\n\nThis article emphasizes that the management body is responsible for overseeing ICT risk management and ensuring that the organization has effective controls and processes in place to manage ICT-related risks.",
    "cited": [
-    "17"
+    "13"
    ],
    "correct": false,
    "wrong": true,
@@ -446,9 +448,9 @@
    "id": "q30",
    "doc": "dora",
    "gold": "28",
-   "answer": "Under the Digital Operational Resilience Act (DORA), **Article 17** sets the general principles for managing ICT third-party risk.\n\nArticle 17 of DORA establishes the requirements for the management of third-party risks in the context of ICT services, including the need for risk assessment, governance, and the implementation of appropriate controls to ensure operational resilience. It mandates that firms identify, assess, and manage the risks arising from third-party service providers, particularly in relation to the integrity, availability, and confidentiality of ICT services.\n\nThus, the correct answer is: **Article 17**.",
+   "answer": "Under the Digital Operational Resilience Act (DORA), **Article 30** sets the general principles for managing ICT third-party risk.\n\n**Article 30** establishes the requirements for the identification, assessment, and management of third-party risks related to ICT services, including the need for appropriate contractual arrangements and oversight to ensure resilience and security.\n\n> **DORA Article 30**: \"The undertaking shall ensure that third-party service providers are managed in a way that ensures the resilience and security of the ICT systems and services used by the undertaking.\"\n\nThis article forms the foundation for managing third-party ICT risks in the context of operational resilience.",
    "cited": [
-    "17"
+    "30"
    ],
    "correct": false,
    "wrong": true,
@@ -461,10 +463,9 @@
    "id": "q31",
    "doc": "mica",
    "gold": "6",
-   "answer": "Under the Markets in Crypto-Assets (MiCA) regulation, there is **no specific article** that sets the content and form of a crypto-asset white paper.\n\nMiCA does not mandate a prescribed format or content for a white paper. Instead, it establishes **general requirements for crypto-asset issuers**, including transparency and disclosure obligations, but these are primarily addressed in **Article 17** and **Article 18**, which relate to the **information that must be provided to investors** and the **requirements for prospectuses and disclosures**.\n\nSpecifically:\n\n- **Article 17** requires that issuers of crypto-assets provide **clear, accurate, and comprehensive information** to investors, including details about the asset, its risks, and the issuer’s business model. This information is often presented in a white paper or similar document, but MiCA does not prescribe a specific format or content for such a document.\n\n- **Article 18** sets out the requirements for **prospectuses** and **information documents**, which may include the content of a white paper, but again, it does not define a fixed template.\n\nTherefore, while MiCA requires **transparent and accessible information**, it **does not specify the content or form of a crypto-asset white paper**.\n\n✅ Answer: **There is no specific article in MiCA that sets the content and form of a crypto-asset white paper.**",
+   "answer": "Under the Markets in Crypto-Assets (MiCA) regulation, **Article 26** sets the content and form of the crypto-asset white paper.\n\n**Article 26** requires that a crypto-asset issuer must provide a white paper that includes specific information about the crypto-asset, such as its purpose, technical specifications, risks, and the structure of the underlying system. This ensures transparency and enables investors to make informed decisions.\n\n> **MiCA Article 26 – White paper requirements**  \n> \"The issuer of a crypto-asset shall provide a white paper that includes, at a minimum, the following information: (a) the purpose of the crypto-asset; (b) the technical specifications of the crypto-asset; (c) the risks associated with the crypto-asset; (d) the structure of the underlying system; (e) the mechanism for the issuance and distribution of the crypto-asset; and (f) any other information necessary to enable investors to understand the nature and risks of the crypto-asset.\"\n\nThis article ensures that issuers provide clear, accessible, and comprehensive information to users and investors.",
    "cited": [
-    "17",
-    "18"
+    "26"
    ],
    "correct": false,
    "wrong": true,
@@ -477,9 +478,9 @@
    "id": "q32",
    "doc": "mica",
    "gold": "59",
-   "answer": "Under the Markets in Crypto-Assets (MiCA) regulation, **Article 17** governs the authorisation of crypto-asset service providers (CASPs).\n\nArticle 17 establishes the requirements for the authorisation of CASPs, including the need for a competent authority to issue a licence, the conditions for eligibility, and the obligations of authorised providers. It ensures that CASPs meet specific standards of governance, risk management, and transparency.\n\nThus, the relevant article is: **Article 17**.",
+   "answer": "Under the Markets in Crypto-Assets (MiCA) regulation, **Article 18** governs the authorisation of crypto-asset service providers (CASPs).\n\n**Article 18 of MiCA** establishes the requirements for the authorisation of crypto-asset service providers, including the need for a competent authority to issue a licence, the conditions for such authorisation, and the obligations of authorised providers.",
    "cited": [
-    "17"
+    "18"
    ],
    "correct": false,
    "wrong": true,
@@ -492,13 +493,11 @@
    "id": "q33",
    "doc": "mica",
    "gold": "88",
-   "answer": "There is no article in the Markets in Crypto-Assets (MiCA) regulation that requires the public disclosure of inside information.\n\nMiCA (Markets in Crypto-Assets) is a European Union regulation designed to establish a harmonised, robust, and transparent regulatory framework for crypto-asset markets. It focuses on areas such as market integrity, investor protection, and the governance of crypto-asset service providers (CASPs), including the requirement for transparency and disclosure of information to investors.\n\nHowever, **MiCA does not contain a provision that requires the public disclosure of \"inside information\"**—a concept typically associated with securities law and insider trading regulations. In fact, MiCA explicitly prohibits the use of inside information in trading activities (see Article 30), and it aligns with the principle that such information must not be disclosed to the public or used for trading purposes.\n\nTherefore, **no article in MiCA requires public disclosure of inside information**. Instead, MiCA prohibits the misuse of inside information and ensures that such information is not made public in a way that could distort market integrity.\n\n✅ Correct answer: **There is no such article in MiCA.**  \n(If you are looking for a specific article, it is not applicable—MiCA does not mandate public disclosure of inside information.)",
-   "cited": [
-    "30"
-   ],
+   "answer": "There is no article in the Markets in Crypto-Assets (MiCA) regulation that requires the public disclosure of inside information.\n\nMiCA (Markets in Crypto-Assets) is a European Union regulation designed to establish a harmonised, robust, and transparent regulatory framework for crypto-asset markets. It focuses on areas such as market integrity, investor protection, and the governance of crypto-asset service providers (e.g., issuers, exchanges, custodians).\n\nHowever, MiCA does **not** contain any provision that mandates the public disclosure of \"inside information\" — a concept typically governed by securities and data protection laws, such as the EU’s Market Abuse Regulation (MAR), not MiCA.\n\nUnder MAR, insider information must not be disclosed to the public, and violations are punishable. MiCA does not address the disclosure of inside information.\n\nTherefore, **no article in MiCA requires public disclosure of inside information**.\n\n✅ Correct answer: **There is no such article in MiCA.**",
+   "cited": [],
    "correct": false,
-   "wrong": true,
-   "uncited": false,
+   "wrong": false,
+   "uncited": true,
    "retrieved": [],
    "hit": null,
    "ungrounded": null
@@ -507,13 +506,11 @@
    "id": "q34",
    "doc": "mica",
    "gold": "89",
-   "answer": "MiCA (Markets in Crypto-Assets Regulation) does not contain a specific article that prohibits insider dealing.\n\nInsider dealing is not directly addressed in MiCA. Instead, MiCA focuses on the regulation of crypto-asset market infrastructure, including licensing, transparency, and investor protection, but it does not establish a standalone prohibition on insider dealing.\n\nFor insider dealing, the relevant legal framework in the EU is the **Markets in Financial Instruments Directive (MiFID II)**, specifically **Article 17 of MiFID II**, which prohibits insider dealing and requires market participants to disclose information and prevent misuse of confidential information.\n\nTherefore, **MiCA does not prohibit insider dealing** — this is a function of MiFID II.\n\n✅ Answer: **MiCA does not contain an article prohibiting insider dealing.**",
-   "cited": [
-    "17"
-   ],
+   "answer": "Under the Markets in Crypto-Assets (MiCA) regulation, there is **no specific article that prohibits insider dealing**.\n\nMiCA does **not** contain a dedicated provision on insider dealing. Instead, it refers to general principles of market integrity and transparency, and the prohibition of insider dealing is primarily governed by **separate EU law**, such as the **Markets in Financial Instruments Directive (MIFID II)** and the **Insider Dealing and Market Abuse Regulation (MiFIR)**.\n\nTherefore, **MiCA does not include an article that prohibits insider dealing**.\n\n✅ Answer: **No article in MiCA prohibits insider dealing.**",
+   "cited": [],
    "correct": false,
-   "wrong": true,
-   "uncited": false,
+   "wrong": false,
+   "uncited": true,
    "retrieved": [],
    "hit": null,
    "ungrounded": null
@@ -522,9 +519,9 @@
    "id": "q35",
    "doc": "mica",
    "gold": "91",
-   "answer": "Under the Markets in Crypto-Assets (MiCA) regulation, **Article 17** prohibits market manipulation.\n\n**Article 17** of MiCA states that it is prohibited to engage in any conduct that distorts or manipulates the price of a crypto-asset or the market for such assets, including but not limited to the use of false or misleading information, or the dissemination of false or misleading information to influence market prices.\n\nThis article ensures market integrity and transparency in crypto-asset markets.",
+   "answer": "Under the Markets in Crypto-Assets (MiCA) regulation, **Article 38** prohibits market manipulation.\n\n**Article 38** of MiCA establishes that market manipulation is prohibited and defines it as any act or practice that distorts or is likely to distort the price of a crypto-asset or the trading conditions in the market, including but not limited to the use of false or misleading information, or the coordination of trading activities to influence prices.\n\nThis article aligns with the broader EU approach to market integrity, ensuring fair and transparent trading in crypto-asset markets.",
    "cited": [
-    "17"
+    "38"
    ],
    "correct": false,
    "wrong": true,
@@ -537,9 +534,9 @@
    "id": "q36",
    "doc": "amlr",
    "gold": "20",
-   "answer": "Under the EU Anti-Money Laundering (AML) Regulation 2024/1624, the customer due diligence measures that obliged entities must apply are set out in **Article 17**.\n\n**Article 17** establishes the customer due diligence obligations, including the requirement to identify and verify the identity of customers, assess the risks associated with the customer, and maintain records of such information. It also mandates ongoing monitoring and the implementation of appropriate measures to prevent money laundering and terrorist financing.\n\nThus, the correct answer is: **Article 17**.",
+   "answer": "Under the EU Anti-Money Laundering (AML) Regulation 2024/1624, **Article 10** sets out the customer due diligence measures that obliged entities must apply.\n\n**Article 10** requires entities to carry out customer due diligence, including identifying and verifying the identity of customers, assessing the risks associated with the customer, and maintaining records of such information. It also mandates ongoing monitoring of transactions and customer activities to detect suspicious behaviour.\n\n> **Reference**: Regulation (EU) 2024/1624 – Article 10 – Customer Due Diligence.",
    "cited": [
-    "17"
+    "10"
    ],
    "correct": false,
    "wrong": true,
@@ -552,9 +549,9 @@
    "id": "q37",
    "doc": "amlr",
    "gold": "10",
-   "answer": "The EU Anti-Money Laundering (AML) Regulation 2024/1624 does not contain an article that requires a \"business-wide risk assessment\" in the way that the original EU AMLD (Anti-Money Laundering Directive) or the AMLD-6 did.\n\nIn fact, **Regulation (EU) 2024/1624** is not a real or currently enacted EU regulation. As of now (June 2024), there is no such regulation titled \"EU AML Regulation 2024/1624\" in force.\n\nThe current relevant EU AML framework is **Regulation (EU) 2024/1624** — this appears to be a placeholder or a draft, not yet adopted or published.\n\nHowever, if you are referring to the **EU AMLD-6 (Anti-Money Laundering Directive 2018/843)**, which is the most relevant current AML framework, then:\n\n👉 **Article 17** of Directive (EU) 2018/843 requires a **business-wide risk assessment**.\n\n> **Article 17** – Member States shall ensure that financial institutions carry out a business-wide risk assessment to identify and assess the risks of money laundering and terrorist financing, taking into account the nature, scale and complexity of their activities.\n\nTherefore, **if** you are referring to the current EU AML framework (Directive 2018/843), then:\n\n✅ **Article 17** requires a business-wide risk assessment.\n\nBut **Regulation (EU) 2024/1624** does not exist as an active, published EU regulation at this time.\n\n👉 Final answer: **There is no such regulation as EU AML Regulation 2024/1624. The requirement for a business-wide risk assessment is found in Article 17 of Directive (EU) 2018/843.**",
+   "answer": "The EU Anti-Money Laundering (AML) Regulation 2024/1624 does not contain a provision that requires a \"business-wide risk assessment\" in the way that the original EU AMLD (Anti-Money Laundering Directive) did.\n\nIn fact, Regulation (EU) 2024/1624, which is the new EU AML Regulation, **does not exist** as of now. The most recent and relevant EU AML regulation is **Regulation (EU) 2023/1450**, which was adopted in December 2023 and entered into force on 1 January 2024. This regulation replaces the previous AMLD and introduces a more comprehensive and modern framework for AML and CFT (Counter-Financial Crime) measures.\n\nUnder **Regulation (EU) 2023/1450**, **Article 12** requires a **business-wide risk assessment**.\n\n✅ Therefore, the correct answer is:\n\n**Article 12** of Regulation (EU) 2023/1450 requires a business-wide risk assessment.\n\nNote: There is no EU AML Regulation 2024/1624 in force. The reference may be a confusion or a future proposal. The current applicable regulation is 2023/1450.\n\n👉 Final Answer: **Article 12**",
    "cited": [
-    "17"
+    "12"
    ],
    "correct": false,
    "wrong": true,
@@ -567,9 +564,9 @@
    "id": "q38",
    "doc": "amlr",
    "gold": "26",
-   "answer": "The EU Anti-Money Laundering (AML) Regulation 2024/1624 does not contain an article that specifically requires ongoing monitoring of business relationships in the way that might be found in a financial crime prevention framework.\n\nHowever, the regulation does establish obligations for ongoing monitoring, particularly in relation to high-risk customers and transactions. While the exact phrasing of such a requirement is not explicitly stated in a single article under 2024/1624, the obligation for ongoing monitoring is generally derived from **Article 17**, which mandates that financial institutions carry out **continuous monitoring** of business relationships and transactions, especially when dealing with high-risk customers or activities.\n\nTherefore, the relevant article is:\n\n**Article 17** – Ongoing monitoring of business relationships.\n\n> *“Financial institutions shall carry out ongoing monitoring of business relationships and transactions, in particular when dealing with high-risk customers or activities, to ensure that the risk of money laundering or terrorist financing is adequately addressed.”*\n\nThis article reflects the requirement for continuous monitoring under the regulation.\n\n✅ Answer: **Article 17**",
+   "answer": "The EU Anti-Money Laundering (AML) Regulation 2024/1624 does not contain a specific article that mandates ongoing monitoring of business relationships in the way that might be found in a financial crime prevention framework.\n\nHowever, the regulation does establish obligations for ongoing monitoring, particularly in relation to high-risk customers and business relationships. While the exact phrasing of such a requirement is not explicitly stated in a single article, **Article 18** of Regulation (EU) 2024/1624 addresses the obligation to conduct ongoing monitoring of business relationships, especially in relation to the risk of money laundering or terrorist financing.\n\n👉 Therefore, the relevant article is:\n\n**Article 18** – Ongoing monitoring of business relationships.\n\nThis article requires that, where a financial institution identifies a customer or business relationship as being at a higher risk of money laundering or terrorist financing, it must conduct ongoing monitoring of that relationship to ensure continued compliance with the AML obligations.\n\nNote: This regulation is still under implementation and may be subject to interpretation or updates. Always refer to the official text for the most accurate and up-to-date information.",
    "cited": [
-    "17"
+    "18"
    ],
    "correct": false,
    "wrong": true,
@@ -582,9 +579,9 @@
    "id": "q39",
    "doc": "amlr",
    "gold": "33",
-   "answer": "The EU Anti-Money Laundering (AML) Regulation 2024/1624 does not contain a provision titled or referenced as \"simplified due diligence measures\" in the way that the original EU AMLD (Anti-Money Laundering Directive) or the AMLD-6 did.\n\nIn fact, **Regulation (EU) 2024/1624** is not a real or currently valid EU regulation as of now. There is no official EU regulation titled \"2024/1624\" on the official EU legislation database (EUR-Lex) that governs anti-money laundering or simplified due diligence.\n\nMoreover, the concept of \"simplified due diligence\" is primarily established under **EU AMLD-6 (Anti-Money Laundering Directive 2018/843)**, specifically in **Article 17**, which allows for simplified due diligence measures for certain low-risk customers or transactions.\n\nTherefore, to answer your question accurately:\n\n👉 **There is no such article in Regulation (EU) 2024/1624** — this regulation does not exist in the current EU legal framework.\n\nIf you are referring to the **simplified due diligence** provisions in EU AML law, the correct reference is:\n\n✅ **Article 17 of Directive (EU) 2018/843** (AMLD-6)\n\nThis article allows Member States to apply simplified due diligence measures for certain types of customers or transactions, provided that the risks are low and appropriate safeguards are in place.\n\nPlease verify the correct regulation and year before citing it. If you meant a different regulation or year, feel free to clarify.",
+   "answer": "The EU Anti-Money Laundering (AML) Regulation 2024/1624 does not contain a provision titled or referenced as \"simplified due diligence measures\" in its current official text.\n\nAs of now, there is no publicly available or officially adopted EU AML Regulation numbered 2024/1624. The most recent and relevant EU AML regulation is Regulation (EU) 2024/1624, which was adopted on 14 March 2024, and it **does** include provisions on simplified due diligence.\n\nUnder **Regulation (EU) 2024/1624**, **Article 18** covers simplified due diligence measures.\n\n✅ Therefore, the correct answer is:  \n**Article 18** of Regulation (EU) 2024/1624 covers simplified due diligence measures.",
    "cited": [
-    "17"
+    "18"
    ],
    "correct": false,
    "wrong": true,
@@ -597,9 +594,9 @@
    "id": "q40",
    "doc": "amlr",
    "gold": "69",
-   "answer": "The EU Anti-Money Laundering (AML) Regulation 2024/1624 does not contain a specific article that directly covers the reporting of suspicions to a Financial Intelligence Unit (FIU) in the way that the original EU AML Regulation (2018/843) did.\n\nIn fact, Regulation (EU) 2024/1624 is not a valid or enacted regulation as of now. There is no official EU regulation titled \"2024/1624\" that has been adopted or published in the Official Journal of the European Union.\n\nThe current relevant EU AML framework is Regulation (EU) 2018/843, which establishes a comprehensive AML regime, including obligations for reporting suspicious transactions to a national FIU.\n\nUnder Regulation (EU) 2 as amended, **Article 17** covers the obligation to report suspicious transactions to the national Financial Intelligence Unit (FIU).\n\nTherefore, if you are referring to the current EU AML Regulation, the correct answer is:\n\n👉 **Article 17** of Regulation (EU) 2018/843 — which requires financial institutions to report suspicious transactions to the national FIU.\n\n⚠️ Note: There is no valid EU AML Regulation 2024/1624. This may be a hypothetical or incorrect reference.\n\nIf you meant Regulation (EU) 2018/843, then the answer is: **Article 17**.",
+   "answer": "The EU Anti-Money Laundering (AML) Regulation 2024/1624 does not contain a specific article that directly covers the reporting of suspicions to a Financial Intelligence Unit (FIU) in the way that might be expected under older or more detailed AML frameworks.\n\nHowever, under Regulation (EU) 2024/1624, **Article 14** establishes the obligation for financial institutions to report suspicious transactions to the relevant FIU. This article mandates that, upon identifying a suspicious transaction or activity, financial institutions must report it to the FIU designated in their Member State.\n\nTherefore, the correct answer is:\n\n**Article 14** of Regulation (EU) 2024/1624 covers the reporting of suspicions to the FIU.",
    "cited": [
-    "17"
+    "14"
    ],
    "correct": false,
    "wrong": true,

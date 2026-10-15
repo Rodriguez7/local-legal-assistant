@@ -1,0 +1,529 @@
+{
+ "label": "hard-base",
+ "summary": {
+  "n": 34,
+  "correct": 0.088,
+  "wrong": 0.912,
+  "uncited": 0.0,
+  "ungrounded": null,
+  "hit@k": null
+ },
+ "results": [
+  {
+   "id": "h01",
+   "doc": "gdpr",
+   "gold": "17",
+   "answer": "Article 17 of the General Data Protection Regulation (GDPR) governs the right to erasure, which includes the obligation to delete personal data when a data subject requests its deletion, such as after closing an account.\n\n**Answer: Article 17 GDPR**.",
+   "cited": [
+    "17"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h02",
+   "doc": "gdpr",
+   "gold": "35",
+   "answer": "Article 17 of the General Data Protection Regulation (GDPR) requires that when processing personal data—especially in high-risk scenarios such as automated profiling—data controllers assess the risks to individuals before processing.\n\nSpecifically, **Article 17(1)** states:\n\n> \"Where the processing of personal data is based on automated processing of personal data, including profiling, which leads to decisions that produce legal effects concerning the individual or significantly affect him or her, the data controller shall ensure that appropriate measures are taken to ensure that the processing is fair and transparent and that the individual is informed of the processing and has the right to object.\"\n\nThis means that when using automated credit-scoring algorithms that involve profiling and may lead to legal or significant effects on individuals, you must conduct a **risk assessment** to ensure fairness, transparency, and individual rights are respected.\n\nTherefore, the relevant GDPR article is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h03",
+   "doc": "gdpr",
+   "gold": "33",
+   "answer": "Under the General Data Protection Regulation (GDPR), the duty to notify a regulator (such as a data protection authority) of a data breach — including the leak of customer email addresses — is set out in **Article 33**.\n\n**Article 33** of the GDPR requires data controllers and processors to:\n\n- Take appropriate measures to address the data breach;\n- Notify the data protection authority (DPA) without undue delay after becoming aware of the breach, **if the breach is likely to result in a risk to the rights and freedoms of natural persons**.\n\nNote: While **Article 33** sets the obligation to notify the regulator, **Article 34** deals with the obligation to notify data subjects (customers), and **Article 17** relates to the right to be informed (not the duty to notify a regulator).\n\nTherefore, the correct answer is:  \n👉 **Article 33**.",
+   "cited": [
+    "17",
+    "33",
+    "34"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h04",
+   "doc": "gdpr",
+   "gold": "20",
+   "answer": "The right to obtain and transfer personal data to a competing app is governed by **Article 17** of the General Data Protection Regulation (GDPR), which establishes the **right to data portability**.\n\n**Article 17 GDPR** states that individuals have the right to receive, in a structured, commonly used and machine-readable format, personal data they have provided to a controller, and to transmit those data to another controller.\n\nThis right enables users to move their transaction history (and other personal data) to a different service provider, such as a competing app — provided the data is processed for the purposes of the user's account and is not subject to restrictions under other provisions.\n\n✅ Answer: **Article 17 GDPR**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h05",
+   "doc": "gdpr",
+   "gold": "22",
+   "answer": "The most relevant GDPR article in this scenario is **Article 17**.\n\n**Article 17** of the General Data Protection Regulation (GDPR) – *Right to explanation* – states that where a person is subject to a decision based on automated processing, including profiling, which produces legal or similarly significant effects, they have the right to obtain human intervention and to express their point of view.\n\nIn your case, the applicant was rejected by an algorithm with no human involvement, and the decision had a legal effect (e.g., denial of a loan). This falls under automated decision-making with significant consequences, triggering the right to human intervention under Article 17.\n\nThus, the correct answer is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h06",
+   "doc": "gdpr",
+   "gold": "28",
+   "answer": "Article 28 of the GDPR requires a binding contract between the data controller and the cloud service provider when the provider processes personal data on behalf of the controller.\n\nSpecifically, Article 28(1) states that the controller must ensure that the processor (such as a cloud provider) processes personal data in accordance with the GDPR and that a contract is concluded with the processor, which includes provisions on the purpose of processing, data protection obligations, and the need for confidentiality.\n\nAdditionally, Article 28(2) mandates that the contract must include the following:\n\n- The purpose of processing;\n- The data categories and the purposes of processing;\n- The data subjects’ rights;\n- The obligations of the processor;\n- The data protection obligations of the processor;\n- The obligations of the processor to ensure the security of the data;\n- The obligations of the processor to report breaches to the controller;\n- The obligations of the processor to cooperate with the controller in the event of a breach.\n\nThus, the key GDPR article is:\n\n**Article 28** – Contract with a processor.",
+   "cited": [
+    "28"
+   ],
+   "correct": true,
+   "wrong": false,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h07",
+   "doc": "gdpr",
+   "gold": "83",
+   "answer": "Article 17 of the General Data Protection Regulation (GDPR) lists the factors that a regulator must weigh when determining the amount of a fine for a data breach.\n\nSpecifically, Article 17(1) states that the Commission shall take into account the following factors when determining the amount of the fine:\n\n- The nature, severity and duration of the breach;\n- The likelihood and extent to which the breach has affected the rights and freedoms of individuals;\n- The level of damage or risk of damage caused by the breach;\n- The level of the data controller’s or data processor’s responsibility in the breach;\n- The measures taken by the data controller or data processor to address the breach, including the measures taken to mitigate the damage or risk of damage.\n\nThese factors are essential for assessing the appropriate fine under the GDPR.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h08",
+   "doc": "gdpr",
+   "gold": "25",
+   "answer": "The GDPR article that requires privacy-protective settings to apply automatically is **Article 17**.\n\nSpecifically, **Article 17(1)** of the GDPR states that \"the controller shall ensure that personal data are processed in a manner that ensures appropriate protection of personal data, including by means of appropriate technical and organizational measures.\" While Article 17 is primarily about the right to erasure and data subject rights, it underpins the requirement for default settings that protect privacy.\n\nHowever, the most directly relevant provision for **automatically applying privacy-protective settings**—especially in the context of default processing and data minimisation—is **Article 5(1)(a)** (lawfulness, fairness, and transparency) and **Article 5(1)(c)** (data minimisation), combined with **Article 24** (data protection by design and by default).\n\nThus, the key article that mandates privacy-protective settings to be applied by default is:\n\n👉 **Article 24** of the GDPR.\n\n> **Article 24** – Data protection by design and by default  \n> \"The controller shall ensure that, by default, personal data are processed in a manner that ensures appropriate protection of personal data, including by means of appropriate technical and organizational measures.\"\n\nThis article explicitly requires that privacy-protective settings be applied automatically and by default, which is exactly what you're aiming for in your app design.\n\n✅ Final answer: **Article 24** of the GDPR.",
+   "cited": [
+    "5",
+    "17",
+    "24"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h09",
+   "doc": "ai_act",
+   "gold": "6",
+   "answer": "Under the AI Act, a system is considered a high-risk system if it meets specific criteria, including its impact on safety, health, or fundamental rights.\n\nThe relevant article that determines whether an AI system counts as a high-risk system is:\n\n**Article 17** – *High-risk AI systems*\n\nSpecifically, Article 17(1) of the AI Act defines high-risk AI systems and includes systems used in financial services, such as credit assessment, where the system may significantly affect individuals' financial well-being or access to services.\n\nTherefore, **Article 17** determines whether the AI used by a bank to evaluate creditworthiness counts as a high-risk system.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h10",
+   "doc": "ai_act",
+   "gold": "50",
+   "answer": "The requirement to inform users when they are interacting with an AI system is covered under **Article 17** of the AI Act.\n\n**Article 17 – Transparency and information to users**  \nThis article mandates that when an AI system is used in a way that could affect users’ decisions or behavior—particularly in high-risk applications—clear and transparent information must be provided to users. This includes informing users that they are interacting with an AI system.\n\nFor a startup deploying a chatbot in front of customers, **Article 17** applies if the chatbot is used in a context where users may be influenced (e.g., making purchasing decisions, receiving financial advice, or being directed to services). The transparency obligation includes clearly indicating that the interaction is with an AI.\n\n👉 Therefore, the correct answer is: **Article 17** of the AI Act.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h11",
+   "doc": "ai_act",
+   "gold": "5",
+   "answer": "There is no specific article in the EU AI Act that explicitly bans social scoring and emotion recognition in the workplace.\n\nThe EU AI Act (regulation (EU) 2024/2800) does address high-risk AI systems, including those involving emotion recognition and social scoring, but it does not contain a standalone article that directly bans such practices in the workplace.\n\nHowever, **Article 17** of the AI Act — which deals with the prohibition of certain high-risk AI systems — includes provisions that may apply:\n\n> **Article 17 – Prohibition of certain AI systems**  \n> \"The following AI systems shall not be deployed in any context:  \n> (a) AI systems that use biometric data for social scoring or for the purpose of monitoring, assessing, or evaluating individuals in a way that leads to discrimination or social exclusion.\"\n\nThis provision effectively prohibits AI systems that use biometric data for social scoring or for discriminatory purposes, including in the workplace.\n\nAdditionally, **Article 18** (on transparency and human oversight) and **Article 22** (on data protection and fundamental rights) reinforce the requirement that AI systems must not infringe on fundamental rights, including privacy and non-discrimination.\n\nTherefore, while there is no single article that *explicitly* bans emotion recognition in the workplace, **Article 17** is the most relevant provision that prohibits AI systems using biometric data for social scoring — which includes emotion recognition — and such use would be considered a violation if it leads to discrimination or social exclusion.\n\n✅ Conclusion: **Article 17** of the AI Act prohibits AI systems that use biometric data for social scoring, which includes emotion recognition in contexts like the workplace.",
+   "cited": [
+    "17",
+    "18",
+    "22"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h12",
+   "doc": "ai_act",
+   "gold": "14",
+   "answer": "The AI Act article that covers the requirement for human oversight and the ability to override or stop a high-risk AI system is **Article 17**.\n\n**Article 17** – Human oversight and intervention  \nThis article mandates that high-risk AI systems must be designed to allow for human oversight and intervention, including the ability for individuals to stop or override the system’s decisions when necessary. It ensures that humans are not merely passive observers but have the capacity to take control and intervene in critical situations.\n\nThus, the correct answer is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h13",
+   "doc": "ai_act",
+   "gold": "99",
+   "answer": "The maximum fines for violating the AI Act, including for using a prohibited AI practice, are set under **Article 39** of the AI Act.\n\nArticle 39 establishes the sanctions and penalties for non-compliance, including the maximum fines that may be imposed on operators and importers of AI systems. Specifically:\n\n- For **serious breaches** (e.g., use of prohibited AI practices), the maximum fine is **up to 10% of the global annual turnover** of the operator.\n\nThis provision applies to both operators and importers of AI systems that fail to comply with the requirements of the AI Act, including those involving prohibited practices such as AI systems that pose a high risk or that are used in ways that violate the law.\n\n👉 Therefore, the relevant article is **Article 39**.",
+   "cited": [
+    "39"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h14",
+   "doc": "ai_act",
+   "gold": "53",
+   "answer": "The AI Act does not specifically address general-purpose large language models (LLMs) in detail, but for AI systems that are considered high-risk, providers are subject to obligations under **Article 17** of the AI Act.\n\n**Article 17** sets out the general duties of AI system providers, including the requirement to provide **technical documentation** and to ensure **transparency** and **accountability** in the design and operation of AI systems. This includes, where applicable, a **copyright policy** or clear information about the use of copyrighted material in training data.\n\nThus, the relevant provision is:\n\n👉 **Article 17** – Technical documentation and transparency requirements.\n\nNote: While Article 17 covers technical documentation and transparency, a specific \"copyright policy\" may also be addressed under broader obligations related to data governance and intellectual property, which are not explicitly detailed in the AI Act. However, the primary legal duty for providers of AI systems—such as LLMs—is established under **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h15",
+   "doc": "psd2",
+   "gold": "73",
+   "answer": "The duty for a provider to issue a refund within one business day in the case of fraudulent card use is not directly specified in a single PSD2 article, but it is primarily governed by **Article 17** of Regulation (EU) 2015/2152 (PSD2).\n\n**Article 17** of PSD2 establishes the obligation of the **payment service provider (PSP)** to **provide a refund to the customer within one business day** in the event of a fraudulent transaction, provided that the fraud is detected and reported in a timely manner.\n\n> **Article 17 – Refund obligations in case of fraud**  \n> \"Where a payment service provider has reason to believe that a transaction has been carried out fraudulently, it shall, within one business day, refund the amount of the transaction to the customer.\"\n\nThis article ensures that customers are protected and that providers act swiftly to mitigate harm from fraudulent use.\n\n✅ Therefore, the correct answer is: **Article 17** of PSD2.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h16",
+   "doc": "psd2",
+   "gold": "66",
+   "answer": "Article 17 of PSD2 sets the bank's duties towards the payment initiation provider.\n\nSpecifically, Article 17 of Regulation (EU) 2015/2120 (PSD2) establishes the obligations of the payment service provider (e.g., the bank) regarding the provision of secure and reliable access to customer payment accounts for payment initiation providers (PIPs), including the requirement to provide secure access via an API, and to ensure that such access is granted in a manner that protects the customer's data and ensures the integrity of the transaction. It also mandates that the bank must provide the PIP with access to the customer's account data in a secure and transparent way, and that the PIP must act in accordance with the customer's consent and the principles of data protection.\n\nThus, the relevant article is:\n\n**Article 17 of PSD2**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h17",
+   "doc": "psd2",
+   "gold": "67",
+   "answer": "Access by account information providers is governed by **Article 17 of PSD2** (Payment Services Directive 2015/23/EU).\n\n**Article 17** establishes the rights of account information service providers (AISPs) to access and obtain account information from payment service providers (PSPs) and to use such information for the purpose of providing services to customers, under the conditions set out in the directive.\n\nThis article enables the secure and lawful access to customer account information through the use of secure authentication and authorization mechanisms, such as the use of an API and strong customer authentication (SCA), ensuring that customers' data is protected and that access is granted only with their explicit consent.\n\n👉 Therefore, the correct answer is: **Article 17 of PSD2**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h18",
+   "doc": "psd2",
+   "gold": "97",
+   "answer": "The requirement for verifying the payer with two independent factors in an online checkout is covered under **Article 17 of PSD2** (Payment Services Directive 2015/23/EU).\n\n**Article 17** – *Strong Customer Authentication (SCA)* – mandates that payment service providers implement strong customer authentication (SCA) when processing payments. This includes verifying the user’s identity using **at least two independent factors**:\n\n- **Something the user knows** (e.g., password)\n- **Something the user has** (e.g., mobile device, token)\n\nThis ensures enhanced security and protects against unauthorized access during online transactions.\n\n👉 Therefore, the correct answer is: **Article 17 of PSD2**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h19",
+   "doc": "psd2",
+   "gold": "74",
+   "answer": "Under the Payment Services Directive 2 (PSD2), there is no specific article that caps the payer’s liability for losses due to card fraud when a card is lost or stolen and the funds are spent before the card is blocked.\n\nHowever, **Article 17 of PSD2** addresses the **liability of the cardholder** in cases of fraud. It states that:\n\n> \"The cardholder shall not be liable for any amount exceeding the amount of €500, in the case of a card used for a transaction that is not authorised by the cardholder.\"\n\nThis means that **the maximum liability of the cardholder (payer) for unauthorized transactions is capped at €500**.\n\nTherefore, the relevant article is:\n\n👉 **Article 17 of PSD2**\n\nNote: This €500 cap applies only to **unauthorized transactions** and does not cover all types of fraud or losses. It is a key mechanism to protect consumers from excessive financial loss due to fraud.\n\n✅ Answer: **Article 17 of PSD2** caps the payer’s liability at €500.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h20",
+   "doc": "dora",
+   "gold": "19",
+   "answer": "The incident reporting duty for a bank regarding a major outage of its core banking system is set out in **Article 17** of the Directive on Governance of Insurance and Investment Firms (DORA), specifically **Article 17(1)**.\n\n> **Article 17 – Reporting of incidents**  \n> (1) A firm shall report to the competent authority any incident that may affect the stability of the financial system or the firm’s ability to carry out its activities, including but not limited to a major outage of its core banking system.\n\nThis article establishes the obligation to report significant incidents to the competent authority, such as a major outage of a core system, ensuring timely oversight and response.\n\n✅ Answer: **Article 17** of DORA.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h21",
+   "doc": "dora",
+   "gold": "30",
+   "answer": "Article 17 of the Digital Operational Resilience Act (DORA) lists the contract terms that must be included in outsourcing agreements covering critical functions.\n\nSpecifically, **Article 17(1)** requires that, where a financial institution outsources critical functions, the contract must include provisions on:\n\n- The scope of the outsourced function;\n- The responsibilities of the service provider;\n- The measures to ensure operational resilience;\n- The obligations regarding data protection and cybersecurity;\n- The procedures for incident reporting and response;\n- The mechanisms for monitoring and auditing;\n- The conditions under which the service provider may be required to provide support during a disruption.\n\nThus, the correct answer is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h22",
+   "doc": "dora",
+   "gold": "26",
+   "answer": "The requirement for a significant bank to conduct red-team style penetration tests on live systems is covered under **Article 17** of the Digital Operational Resilience Act (DORA).\n\n**Article 17** of DORA mandates that financial institutions, including significant banks, must implement appropriate cybersecurity measures, including regular testing of their systems to identify and address vulnerabilities. This includes conducting **penetration testing** on live systems, particularly in the context of operational resilience and risk management.\n\n> **Article 17(1)**: \"Each financial institution shall ensure that it carries out regular penetration testing of its systems, including live systems, to identify and address vulnerabilities.\"\n\nThus, the relevant DORA article is **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h23",
+   "doc": "dora",
+   "gold": "5",
+   "answer": "Under the Digital Operational Resilience Act (DORA), **Article 17** makes the board of a financial institution responsible for approving and overseeing the ICT risk strategy.\n\n**Article 17** states that the board must ensure that the entity has an effective ICT risk strategy and that it is approved and regularly reviewed by the board. This includes ensuring that the strategy is aligned with the entity’s overall risk management framework and that it addresses the risks to operational resilience.\n\nThus, the correct answer is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h24",
+   "doc": "dora",
+   "gold": "28",
+   "answer": "The general principles regarding concentration risk assessment and the maintenance of a register of information for a financial entity before engaging an ICT provider are set out in **Article 17** of the Directive on Governance of the Insurance and Pensions (DORA), as amended.\n\nSpecifically:\n\n- **Article 17(1)** requires financial entities to assess concentration risk and to maintain a register of information systems and related services, including ICT providers, to ensure effective risk management and oversight.\n\nThus, the correct answer is: **Article 17** of DORA.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h25",
+   "doc": "mica",
+   "gold": "6",
+   "answer": "The document that a company must publish when launching a new token must contain the information specified in **Article 17** of the Markets in Crypto-Assets (MiCA) regulation.\n\n**Article 17** requires that a crypto-asset issuer publish a public document that includes:\n\n- The name and address of the issuer;\n- A description of the crypto-asset;\n- The purpose and use of the crypto-asset;\n- The technical specifications of the crypto-asset;\n- The rules governing the issuance and distribution of the crypto-asset;\n- The mechanism for ensuring the integrity and security of the crypto-asset;\n- The information on the governance structure (if applicable);\n- The risk factors associated with the crypto-asset.\n\nThis document must be made publicly available and updated as necessary.\n\n✅ Therefore, the relevant MiCA article is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h26",
+   "doc": "mica",
+   "gold": "59",
+   "answer": "The authorisation needed for an exchange to offer custody and trading of crypto-assets in the EU is governed by **Article 17 of MiCA**.\n\n**Article 17** establishes the requirements for the authorisation of crypto-asset service providers (CASPs), including exchanges that provide custody and trading services. It sets out the conditions under which a CASP may be authorised, including compliance with regulatory, financial, and operational standards, and the need for a robust governance and risk management framework.\n\nThus, the relevant MiCA article is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h27",
+   "doc": "mica",
+   "gold": "89",
+   "answer": "The practice described—using non-public information about an upcoming exchange listing to gain an unfair advantage in trading—violates **Article 17 of MiCA** (Markets in Crypto-Assets Regulation).\n\n**Article 17** prohibits market abuse, including the use of non-public information for trading purposes. It establishes that market abuse includes the use of inside information, which is defined as information that is not publicly available and which is material to the price of a crypto-asset.\n\nThus, the relevant provision is:\n\n👉 **Article 17 – Market abuse**\n\nThis article ensures that market participants do not exploit non-public information to gain an unfair advantage, which directly applies to the scenario described.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h28",
+   "doc": "mica",
+   "gold": "91",
+   "answer": "There is no specific article in the **Markets in Crypto-Assets (MiCA)** regulation that directly prohibits a platform from spreading false rumours to manipulate a token's price.\n\nMiCA (Regulation (EU) 2023/1226) primarily regulates the **issuance, marketing, and trading** of crypto-asset services and products, with a focus on **transparency, consumer protection, and market integrity**. While it includes provisions on **misleading or false information**, these are generally addressed under broader principles rather than specific prohibitions on \"spreading false rumours.\"\n\nHowever, the most relevant provision is:\n\n> **Article 17 – Prohibition of misleading or false information**\n\nThis article states that **\"a service provider shall not provide misleading or false information to users or the public\"** in relation to a crypto-asset or its services.\n\nTherefore, **Article 17** of MiCA prohibits the dissemination of misleading or false information — which would include spreading false rumours to manipulate a token's price.\n\n✅ **Answer: Article 17** of MiCA prohibits spreading false or misleading information.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h29",
+   "doc": "mica",
+   "gold": "88",
+   "answer": "Under the Markets in Crypto-Assets (MiCA) regulation, there is **no specific article** that requires an issuer to publicly disclose price-sensitive information about its token.\n\nHowever, **Article 17** of MiCA — which deals with **disclosure and transparency** — requires issuers to provide **clear, accurate, and timely information** to investors, including information about the token, its purpose, and the risks involved. This includes information about the underlying asset or the business model.\n\nWhile Article 17 mandates transparency, it **does not specifically require the public disclosure of price-sensitive information** (such as imminent price movements or insider information), and such disclosure would be prohibited under **Article 17(2)**, which prohibits the use of insider information or the dissemination of information that could influence market prices.\n\nImportantly, **Article 17(2)** states that:\n\n> \"No person shall use or disclose any information which is not publicly available and which is of a nature that could influence the price of a crypto-asset.\"\n\nThus, **price-sensitive information must not be disclosed** to the public if it is not already publicly available — meaning that **there is no requirement to disclose it publicly**, and in fact, such disclosure would be a violation of MiCA.\n\n**Conclusion:**  \nThere is **no MiCA article that requires** an issuer to publicly disclose price-sensitive information.  \nIn fact, **Article 17(2)** prohibits such disclosure.\n\n✅ Answer: **There is no such article. Disclosure of price-sensitive information is prohibited under Article 17(2).**",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h30",
+   "doc": "amlr",
+   "gold": "22",
+   "answer": "Article 17 of the Anti-Money Laundering Regulation (AMLR) covers the identification and verification of customers and beneficial owners.\n\nSpecifically, **Article 17(1)** requires financial institutions to identify and verify the identity of customers and, where applicable, the beneficial owners of a customer. This includes obtaining information such as the name, address, and other identifying details of the customer and beneficial owner, and verifying such information through reliable and independent sources.\n\nThus, the relevant AMLR article is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h31",
+   "doc": "amlr",
+   "gold": "33",
+   "answer": "The AMLR (Anti-Money Laundering and Counter-Terrorist Financing Regulation) article that covers simplified due diligence is **Article 17**.\n\n**Article 17** allows for simplified due diligence measures when assessing the risk of a customer, particularly for low-risk customers, provided that the measures are proportionate and sufficient to ensure compliance with the AML and CTF obligations.\n\n> **Article 17 – Simplified due diligence**  \n> Where the risk of money laundering or terrorist financing is low, the financial institution may apply simplified due diligence measures, taking into account the nature of the customer, the type of transaction, and the risk profile of the customer.\n\nThis article enables firms to apply lighter checks to low-risk customers, as long as the measures remain effective and are applied in a risk-based manner.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h32",
+   "doc": "amlr",
+   "gold": "69",
+   "answer": "Article 17 of the Anti-Money Laundering Regulation (AMLR) covers the obligation to report suspicious transactions to the Financial Intelligence Unit (FIU).\n\nUnder Article 17, financial institutions must report any transaction that appears suspicious or indicative of money laundering to the relevant FIU. This includes transactions that involve unusual or unexplained movements of funds, or that are inconsistent with the customer’s profile or known activities.\n\nThus, the correct answer is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h33",
+   "doc": "amlr",
+   "gold": "10",
+   "answer": "The requirement for a bank to assess its overall exposure to money laundering across all business lines is found in **Article 17** of the Anti-Money Laundering and Countering the Financing of Terrorism (AML/CFT) Regulation (EU) 2018/843.\n\n**Article 17** states that financial institutions must carry out a risk assessment of the risks of money laundering and terrorist financing, taking into account the nature of their activities, the types of clients they serve, and the products and services they offer. This includes assessing the overall exposure to money laundering across all business lines.\n\nThus, the relevant article is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  },
+  {
+   "id": "h34",
+   "doc": "amlr",
+   "gold": "34",
+   "answer": "The scope of enhanced due diligence is set out in **Article 17** of the Anti-Money Laundering and Countering the Financing of Terrorism (AML/CFT) Regulation (EU) 2018/843.\n\n**Article 17** establishes the obligation for financial institutions to apply enhanced due diligence when dealing with customers from high-risk jurisdictions, including specific measures such as more rigorous customer identification, ongoing monitoring, and additional documentation. It defines the scope and requirements for such enhanced measures under the AMLR.\n\n👉 Therefore, the correct answer is: **Article 17**.",
+   "cited": [
+    "17"
+   ],
+   "correct": false,
+   "wrong": true,
+   "uncited": false,
+   "retrieved": [],
+   "hit": null,
+   "ungrounded": null
+  }
+ ]
+}

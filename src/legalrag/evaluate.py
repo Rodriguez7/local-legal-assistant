@@ -31,7 +31,7 @@ RESULTS_DIR = ROOT / "eval" / "results"
 
 BASE_SYSTEM = (
     "You are a legal research assistant for EU financial and data-protection law. "
-    "Answer concisely and cite the specific article number, e.g. Article 17."
+    "Answer concisely and cite the specific article number."
 )
 
 _CITE = re.compile(r"\bArt(?:icle|icles|\.)?\s*(\d+)", re.IGNORECASE)

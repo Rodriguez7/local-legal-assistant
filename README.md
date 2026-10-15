@@ -23,16 +23,16 @@ title words). Gold articles were never used for training.
 
 | Setup | Correct article | Wrong article | Gold in top 5 |
 |---|---|---|---|
-| Easy: base model | 25% | 72% | n/a |
+| Easy: base model | 33% | 60% | n/a |
 | Easy: base + RAG | 100% | 0% | 100% |
 | Easy: fine-tuned + RAG | 100% | 0% | 100% |
-| Hard: base model | 9% | 91% | n/a |
+| Hard: base model | 24% | 76% | n/a |
 | Hard: base + RAG | 82% | 15% | 74% |
 | Hard: fine-tuned + RAG | 76% | 24% | 74% |
 
 What this shows:
 
-- **RAG is what fixes hallucinated citations**: wrong-article answers drop from 72–91% to 0–15%.
+- **RAG is what fixes hallucinated citations**: wrong-article answers drop from 60–76% to 0–15%.
 - **The LoRA fine-tune fixed format, not correctness.** It cites with the exact label
   (`[GDPR, Article 17(1)]`) in 74 of 74 answers, against about 62% for base + RAG, which often
   wrote `[1]`. It did not improve accuracy: on the hard set it is 2 questions worse, which is within
@@ -45,6 +45,10 @@ Caveats, stated plainly: small question sets written by me; the "ungrounded cita
 model is imported as `int4` while the baseline is `q4_K_M` (this Ollama build has no `q4_K_M` for
 safetensors), so the comparison has a small quantisation confound. Raw per-question results are in
 `eval/results/`.
+
+Correction: my first baseline prompt ended with "e.g. Article 17" and the base model copied it, answering
+"Article 17" for 53 of 74 questions (72% / 91% wrong). I removed the example and re-ran the baseline;
+the numbers above are the corrected ones, and the original run is kept in `eval/results/anchored-prompt/`.
 
 ## How it works
 
