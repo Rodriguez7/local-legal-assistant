@@ -15,6 +15,8 @@ Small local models name the wrong article with confidence. The base model I star
 GDPR Article 17 (erasure) as Article 15 (access). Grounding the answer in retrieved text fixes this,
 and this repo measures by how much.
 
+![Base model vs retrieval on the same question](docs/figures/02-before-after.png)
+
 ## Results
 
 Each question asks which article of a named text covers a topic, so the answer is one article number.
